@@ -5,6 +5,7 @@ category: afflictions
 subcategory: surgery
 permalink: /afflictions/surgery-afflictions/retracted-skin/
 image: /images/svg/surgery.svg
+inline_image: /images/afflictions/surgery/retracted_skin.png
 
 blocks:
   - type: description

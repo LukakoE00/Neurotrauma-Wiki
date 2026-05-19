@@ -5,6 +5,7 @@ category: afflictions
 subcategory: surgery
 permalink: /afflictions/surgery-afflictions/surgery-incision/
 image: /images/svg/surgery.svg
+inline_image: /images/afflictions/surgery/surgery_incision.png
 
 blocks:
   - type: description

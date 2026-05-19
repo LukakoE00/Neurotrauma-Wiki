@@ -8,7 +8,7 @@ layout: default
         {{ page.contentheader }}
     </h1>
 
-    <div class="blocks-categorypage">
+    <div class="blocks-categorypage_items">
 
         {% assign items = site.wikipages | where: "category", page.category %}
         {% assign subgroups = items | group_by: "subcategory" %}

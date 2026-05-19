@@ -5,6 +5,7 @@ category: afflictions
 subcategory: surgery
 permalink: /afflictions/surgery-afflictions/clamped-bleeding/
 image: /images/svg/surgery.svg
+inline_image: /images/afflictions/surgery/clamped_bleeding.png
 
 blocks:
   - type: description

@@ -5,6 +5,7 @@ category: afflictions
 subcategory: surgery
 permalink: /afflictions/surgery-afflictions/sawed-bones/
 image: /images/svg/surgery.svg
+inline_image: /images/afflictions/surgery/sawed_bones.png
 
 blocks:
   - type: description

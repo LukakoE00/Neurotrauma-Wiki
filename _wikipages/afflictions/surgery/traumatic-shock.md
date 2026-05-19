@@ -5,6 +5,7 @@ category: afflictions
 subcategory: surgery
 permalink: /afflictions/surgery-afflictions/traumatic-shock/
 image: /images/svg/surgery.svg
+inline_image: /images/afflictions/surgery/traumatic_shock.png
 
 blocks:
   - type: description
