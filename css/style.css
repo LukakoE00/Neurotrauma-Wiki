@@ -115,17 +115,54 @@ body {
 /* Determines the looks / size of the text links in the sidebar. */
 #sidebar a {
     /* Determines content positioning */
-    padding: 6px 8px 6px 16px;
-    font-size: 25px;
-    display: block;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    
+    
+    display: flex;
+    align-items: center;
 
-    /* Customization */
+    margin-bottom: 1rem;
+    background: var(--colour-background-contentbox);
+    border: 1px solid var(--colour-borders);
+    color: var(--text-colour);
     text-decoration: none;
-    color: var(--colour-text-default);
 }
 
 /* Determines the look of links when hovering the cursor on them */
 sidebar a:hover {
+    color: var(--colour-text-hover);
+}
+
+/* Handles the drop-down buttons on the sidebar */
+/* TODO: Fix for mobile; make it look nicer. Maybe JS is the way... */
+.sidebar-category summary,
+.sidebar-subcategory summary,
+.sidebar-page {
+    border-radius: 0.5em;
+    padding: 0.2em;
+    
+    
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 1rem;
+    background: var(--colour-background-contentbox);
+    border: 1px solid var(--colour-borders);
+    color: var(--text-colour);
+    text-decoration: none;
+}
+
+.sidebar-subcategory {
+    margin-left: 0.5rem;
+}
+
+.sidebar-page {
+    font-size: 16px;
+    margin-left: 0.5rem;
+}
+
+.sidebar-page:hover {
     color: var(--colour-text-hover);
 }
 
@@ -152,7 +189,6 @@ main {
     border-bottom: 1px solid var(--colour-borders);
 }
 
-
 /* Home Page Content Formatting */
 /* We want the blocks of information to be put side by side, though not as big as Content Page blocks and not in columns like Category Page blocks. */
 .blocks-homepage {
@@ -161,6 +197,52 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 40px;
     padding: 0.5rem 0;
+}
+
+/* The block of text with information at the top of the home page. */
+.homepage-top-block {
+    /* Determines content positioning */
+    margin-bottom: 3rem;
+    padding: 1rem;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-break: break-word;
+
+    /* Customization */
+    background: var(--colour-background-contentbox);
+    border: 1px solid var(--colour-borders);
+    border-radius: 5px;
+}
+
+/* Links within the top block */
+.homepage-top-block a {
+    border: 1px solid var(--colour-borders);
+    padding: 4px;
+    display: inline-block;
+    margin: 0.20rem;
+
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+
+    /* Customization */
+    border-radius: var(--size-bordercurves);
+    text-decoration: none;
+    color: var(--colour-text-link);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.homepage-top-block a:hover {
+    text-decoration: none;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* Text within the top block */
+.homepage-top-block p {
+    margin-bottom: 1rem;
+}
+
+.homepage-top-block h3 {
+    margin-bottom: 0.5rem;
 }
 
 /* Category Page Content Formatting */
@@ -307,6 +389,18 @@ main {
         position: fixed;
         bottom: 0;
         top: unset;
+    }
+
+    .sidebar-category {
+        position: relative;
+        flex: 0 0 auto;
+    }
+
+    .sidebar-category summary {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 6.7px;
     }
 
     #sidebar a{

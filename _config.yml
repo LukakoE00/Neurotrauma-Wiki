@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Wiki Test
+title: Neurotrauma Wiki
 # email: test
 # description: >- # this means to ignore newlines until "baseurl:"
 # twitter_username: test
@@ -28,7 +28,7 @@ title: Wiki Test
 plugins:
   - jekyll-feed
 
-baseurl: /Wiki_Test
+baseurl: /Neurotrauma-Wiki
 url: http://LukakoE00.github.io
 
 # Pages

@@ -1,4 +1,6 @@
 afflictions:
+  label: Afflictions
+  subcategories:
   - key: symptoms
     label: Symptoms
 
@@ -33,6 +35,8 @@ afflictions:
     label: Surgery
 
 items:
+  label: Items
+  subcategories:
   - key: consumables
     label: Consumables
 
@@ -46,9 +50,13 @@ items:
     label: Surgery Table Upgrades
 
 surgeryprocedures:
+  label: Surgery Procedures
+  subcategories:
   - key: base_procedures
     label: Base Neurotrauma
 
 gamemechanics:
+  label: Game Mechanics
+  subcategories:
   - key: base_mechanics
     label: Base Neurotrauma

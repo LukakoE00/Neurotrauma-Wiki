@@ -20,11 +20,11 @@ blocks:
 
      Other vanilla wrenches are able to perform the same actions, including:
 
-     - {{HARDENED_WRENCH}}
-     - {{DEMENTONITE_WRENCH}}
-     - {{MULTI_TOOL}}
-     - {{HEAVY_WRENCH}}
-     - {{WRENCH_MURDER_MYSTERY}} "smartCard-inline")
+     - Hardened Wrench
+     - Dementonite Wrench
+     - Multitool
+     - Heavy Wrench
+     - Murder Mystery Wrench
 
      ### Application success:
 

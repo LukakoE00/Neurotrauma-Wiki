@@ -1,19 +1,19 @@
 - name: Afflictions
-  description: placeholder
+  description: This page contains lists of all Neurotrauma afflictions and relevant information such as their causes, treatments and effects.
   slug: /afflictions/
   order: 1
 
 - name: Items
-  description: placeholder
+  description: This page contains lists of all new or overriden Neurotrauma items and relevant information such as their use cases or skill requirements.
   slug: /items/
   order: 2
 
 - name: Surgical Procedures
-  description: placeholder
+  description: This page contains lists of all the surgerical procedures in Neurotrauma and relevant information like their steps or use cases.
   slug: /procedures/
   order: 3
 
 - name: Game Mechanics
-  description: placeholder
+  description: This page contains a list of the various Neurotrauma-specific changes or additions to game mechanics, and the changes they make.
   slug: /mechanics/
   order: 4

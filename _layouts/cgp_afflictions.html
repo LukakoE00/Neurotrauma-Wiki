@@ -10,18 +10,19 @@ layout: default
 
     <div class="blocks-categorypage_afflictions">
 
+        {% assign category_data = site.data.category_groups[page.category] %}
         {% assign items = site.wikipages | where: "category", page.category %}
         {% assign subgroups = items | group_by: "subcategory" %}
-        {% assign category_order = site.data.category_groups[page.category] %}
 
-        {% for category in category_order %}
-            {% assign group = subgroups | where: "name", category.key | first %}
+        {% for sub in category_data.subcategories %}
+
+            {% assign group = subgroups | where: "name", sub.key | first %}
 
             {% if group %}
 
                 <div class="block">
 
-                    <h2>{{ category.label }}</h2>
+                    <h2>{{ sub.label }}</h2>
 
                     {% for item in group.items %}
                         <a href="{{ item.url | relative_url }}">
@@ -36,6 +37,7 @@ layout: default
                 </div>
 
             {% endif %}
+
         {% endfor %}
 
     </div>

@@ -8,9 +8,9 @@ layout: default
         {{ page.contentheader }}
     </h1>
 
-    {% if page.content %}
-        <div class="content-intro">
-            {{ page.content | markdownify }}
+    {% if content %}
+        <div class="homepage-top-block">
+            {{ content }}
         </div>
     {% endif %}
 
@@ -28,7 +28,7 @@ layout: default
                 {% endif %}
 
                 <a href="{{ cat.slug | relative_url }}">
-                    <span>Open</span>
+                    <span>Go to page</span>
                 </a>
 
             </div>
