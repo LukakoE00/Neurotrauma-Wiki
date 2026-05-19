@@ -12,7 +12,7 @@ blocks:
     header: "Description:"
     order: 1
     text: |
-     placeholder
+     An affliction that will slowly decrease the amount of blood a person has, with disasterous consequences; treating it should be a high priority for any medic.
 
   - type: caused_by
     header: "Caused By:"

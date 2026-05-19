@@ -39,7 +39,23 @@ INTENSE_PAIN: /afflictions/symptoms/intense-pain/
 AORTIC_RUPTURE: /afflictions/torso/aortic-rupture/
 
 # ITEMS
-ANTIBIOTIC_GLUE:
-BANDAGES:
-PLASTISEAL:
-SUTURES:
+# Consumables
+ADRENALINE: /items/consumables/adrenaline
+ALIEN_BLOOD: /items/consumables/alien_blood
+ANAPARALYZANT: /items/consumables/anaparalyzant
+ANTIBIOTIC_GLUE: /items/consumables/antibiotic_glue
+ANTIBIOTIC_OINTMENT: /items/consumables/antibiotic_ointment
+ANTISEPTIC: /items/consumables/antiseptic
+AZATHIOPRINE: /items/consumables/azathioprine
+BANDAGES: /items/consumables/bandages
+BLOOD_PACKS: /items/consumables/blood_packs
+BROAD_SPECTRUM_ANTIBIOTICS: /items/consumables/broad_spectrum_antibiotics
+COMBAT_STIMULANT: /items/consumables/combat_stimulant
+PLASTISEAL: /items/consumables/plastiseal
+SUTURES: /items/consumables/sutures
+
+# Tools
+
+# Transplants
+
+# Upgrades

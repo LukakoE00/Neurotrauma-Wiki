@@ -314,7 +314,11 @@ main {
         padding: 10px;
     }
 
-    .blocks-categorypage{
+    .blocks-categorypage_afflictions{
+        column-count: 1;
+    }
+
+    .blocks-categorypage_items{
         column-count: 1;
     }
 
