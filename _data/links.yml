@@ -16,6 +16,8 @@ BLUNT_FORCE_TRAUMA: /afflictions/any-bodypart/internal-wounds
 OPEN_WOUNDS: /afflictions/any-bodypart/open-wounds
 LACERATIONS: /afflictions/any-bodypart/open-wounds
 GUNSHOT_WOUND: /afflictions/any-bodypart/open-wounds
+BITE_WOUNDS: /afflictions/any-bodypart/open-wounds
+DEEP_TISSUE_INJURY: /afflictions/any-bodypart/open-wounds
 
 # Blood
 ACIDOSIS: /afflictions/blood/acidosis
@@ -222,3 +224,28 @@ CONFIGURATION_MENU: /mechanics/configuration_menu
 FIBRILLATION: /mechanics/fibrillation
 IMMUNITY: /mechanics/immunity
 ORGAN_REJECTION: /mechanics/organ_rejection
+
+# TIPS
+HOW_TO_DIAGNOSE: /general_information/tips/tip2/
+
+# ADDONS
+
+# Cybernetics Enhanced
+# Afflictions
+BENT_METAL: /afflictions/cybernetics_enhanced/bent_metal
+DAMAGED_ELECTRONICS: /afflictions/cybernetics_enhanced/damaged_electronics
+LOOSE_SCREWS: /afflictions/cybernetics_enhanced/loose_screws
+MATERIAL_LOSS: /afflictions/cybernetics_enhanced/material_loss
+
+# Items
+CYBERARM: /items/cybernetics_enhanced/cyberarm
+CYBERLEG: /items/cybernetics_enhanced/cyberleg
+WELDING_TOOL: /items/cybernetics_enhanced/welding_tool
+
+# ADDONS
+
+# Surgery Plus
+# Item
+SURGEON_CLOTHES: /items/surgery_plus/surgeon_clothes
+SURGICAL_DRAPES: /items/surgery_plus/surgical_drapes
+SURGICAL_MASK: /items/surgery_plus/surgical_mask

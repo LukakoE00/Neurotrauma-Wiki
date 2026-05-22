@@ -1,0 +1,15 @@
+---
+layout: null
+---
+{% assign all_docs = "" | split: "" %}
+{% for collection in site.collections %}
+  {% assign all_docs = all_docs | concat: collection.docs %}
+{% endfor %}
+{% assign all_pages = site.pages | concat: all_docs %}
+{% assign comma = "" %}
+[{% for item in all_pages %}{% if item.title and item.url %}{{ comma }}{
+  "title": {{ item.title | jsonify }},
+  "url": {{ item.url | relative_url | jsonify }},
+  "category": {{ item.category | jsonify }},
+  "subcategory": {{ item.subcategory | jsonify }}
+}{% assign comma = "," %}{% endif %}{% endfor %}]

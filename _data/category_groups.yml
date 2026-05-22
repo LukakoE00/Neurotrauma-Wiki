@@ -64,14 +64,15 @@ gamemechanics:
 general_information:
   label: General Information
   subcategories:
-  - key: issues
-    label: Issues
+  - key: faq
+    label: Frequently Asked Questions
 
   - key: tips
     label: Tips
 
-  - key: faq
-    label: Frequently Asked Questions
+  - key: issues
+    label: Issues
+
 
 addons:
   label: Addons

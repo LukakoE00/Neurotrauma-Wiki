@@ -4,7 +4,6 @@ layout: default
 
 <div class="container">
   <main>
-
     <div class="content">
 
       <section>
@@ -42,7 +41,6 @@ layout: default
                 {%- assign html = block.text | markdownify -%}
 
                 {%- if site.data.links -%}
-
                   {%- for item in site.data.links -%}
 
                     {%- assign token = item[0] -%}
@@ -57,7 +55,6 @@ layout: default
                     {%- assign html = html | replace: placeholder, link_html -%}
 
                   {%- endfor -%}
-
                 {%- endif -%}
 
                 {{ html }}
@@ -70,55 +67,37 @@ layout: default
 
         </div>
 
-        {% if page.type == "addon" %}
+        {% assign related_items = site.wikipages | where: "addon", page.addon | where_exp: "item", "item.url != page.url" %}
+        {% assign grouped_items = related_items | group_by: "subcategory" %}
 
-          {% assign related_items = site.wikipages | where: "category", page.category | where_exp: "item", "item.url != page.url" %}
-          {% assign grouped_items = related_items | group_by: "subcategory" %}
-          {% if related_items.size > 0 %}
+          <div class="blocks-categorypage_afflictions">
 
-            <div class="blocks-category-links">
+            {% for subgroup in grouped_items %}
 
-              {% for subgroup in grouped_items %}
+              <section class="block">
 
-                <section class="block-category-group">
+                <h2>{{ subgroup.name | replace: "_", " " | capitalize }}</h2>
 
-                  <h2>
-                    {{ subgroup.name
-                      | replace: "_", " "
-                      | capitalize }}
-                  </h2>
+                <div class="category-grid">
 
-                  <div class="category-grid">
+                  {% for item in subgroup.items %}
 
-                    {% for item in subgroup.items %}
+                    <a class="category-card" href="{{ item.url | relative_url }}">
+                      <span>{{ item.title }}</span>
+                      {% if item.inline_image %}
+                        <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
+                      {% endif %}
+                    </a>
+                  {% endfor %}
 
-                      <a class="category-card" href="{{ item.url | relative_url }}">
+                </div>
 
-                        {% if item.inline_image %}
-                          <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
-                        {% endif %}
+              </section>
 
-                        <span>{{ item.title }}</span>
+            {% endfor %}
 
-                      </a>
-
-                    {% endfor %}
-
-                  </div>
-
-                </section>
-
-              {% endfor %}
-
-            </div>
-
-          {% endif %}
-
-        {% endif %}
-
+          </div>
       </section>
-
     </div>
-
   </main>
 </div>

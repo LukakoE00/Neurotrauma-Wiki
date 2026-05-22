@@ -1,8 +1,9 @@
 ---
-layout: contentpage
+layout: cgp_addons
 title: "NT: Pharmacy"
 category: addons
-subcategory: on_wiki
+subcategory: not_wiki
+addon: pharmacy
 permalink: /addons/pharmacy/
 
 blocks:

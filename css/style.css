@@ -7,16 +7,16 @@ God no! We will spam comments instead!
 /* Used to sync colours across pages without having to change them manually every time */
 :root {
     /* Backgrounds */
-    --colour-background-general: #555b6b;
-    --colour-background-header: #434550;
-    --colour-background-sidebar: #434550;
-    --colour-background-contentbox: #5c5f69;
+    --colour-background-general: rgb(36, 37, 40);
+    --colour-background-header: rgb(31, 31, 31);
+    --colour-background-sidebar: rgb(36, 37, 40);
+    --colour-background-contentbox: rgb(31, 31, 31);
 
     /* UI Elements */
     --colour-borders: #00000085;
 
     /* Text Elements */
-    --colour-text-default: #000000;
+    --colour-text-default: #ffffff;
     --colour-text-link: #9aaeca;
     --colour-text-hover: #ffffff;
 
@@ -72,6 +72,50 @@ header {
     max-width: 70vw;
 }
 
+/* Allow better listing of results*/
+.search-wrapper {
+    position: relative;
+    display: inline-block; 
+}
+
+/* Style the dropdown results */
+#results {
+    /* Determines content positioning */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: 250px;
+    overflow-y: auto;
+    z-index: 1000;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    /* Customization */
+    background: var(--colour-background-general);
+    border-top: none;
+    border-right: 1px solid var(--colour-borders);
+    border-left: 1px solid var(--colour-borders);
+    border-bottom: 1px solid var(--colour-borders);
+    border-radius: var(--size-bordercurves);
+}
+
+#results li {
+    list-style: none;
+}
+
+#results a {
+    display: block;
+    padding: 8px 10px;
+    text-decoration: none;
+    color: var(--colour-text-default);
+}
+
+#results a:hover {
+    background: var(--colour-background-general);
+}
+
 /* Body Formatting */
 /* Present in all pages since it's part of the Default Layout. All content (except for the header / sidebar) fit within here*/
 body {
@@ -117,10 +161,10 @@ body {
     /* Determines content positioning */
     border-radius: 0.5em;
     padding: 0.2em;
-    
     display: flex;
     align-items: center;
 
+    /* Customization */
     margin-bottom: 1rem;
     background: var(--colour-background-contentbox);
     border: 1px solid var(--colour-borders);
@@ -140,10 +184,10 @@ sidebar a:hover {
 .sidebar-page {
     border-radius: 0.5em;
     padding: 0.2em;
-
     display: flex;
     align-items: center;
 
+    /* Customization */
     margin-bottom: 1rem;
     background: var(--colour-background-contentbox);
     border: 1px solid var(--colour-borders);
@@ -381,6 +425,7 @@ main {
     #sidebar{
         display: flex;
         flex-wrap: nowrap;
+        align-items: center;
 
         overflow-x: auto;
         overflow-y: hidden;
@@ -398,19 +443,14 @@ main {
         top: unset;
     }
 
-    .sidebar-category {
-        position: relative;
-        flex: 0 0 auto;
-    }
-
-    .sidebar-category summary {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 6.7px;
+    .sidebar-category,
+    .sidebar-subcategory,
+    .sidebar-page{
+        display: none;
     }
 
     #sidebar a{
+        display: block;
         font-size: 18px;
         padding: 10px;
     }
@@ -423,7 +463,8 @@ main {
         column-count: 1;
     }
 
-    .topnav input{
+    .topnav input,
+    .topnav input:focus{
         width: 100%;
         max-width: 200px;
     }

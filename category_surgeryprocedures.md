@@ -1,6 +1,6 @@
 ---
 layout: cgp_afflictions
-title: Surgical
+title: Surgical Procedures
 contentheader: Surgical Procedures
 category: surgeryprocedures
 permalink: /procedures/

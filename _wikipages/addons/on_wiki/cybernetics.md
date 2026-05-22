@@ -1,8 +1,9 @@
 ---
-layout: contentpage
+layout: cgp_addons
 title: "NT: Cybernetics Enhanced"
 category: addons
 subcategory: on_wiki
+addon: cybernetics_enhanced
 permalink: /addons/cybernetics_enhanced/
 
 blocks:

@@ -2,6 +2,129 @@
     <h2>Neurotrauma Wiki</h2>
 
     <div class="topnav">
-        <input type="text" placeholder="Search..">
+        <div class="search-wrapper">
+            <input type="text" id="search-input" placeholder="Search...">
+            <ul id="results"></ul>
+        </div>
     </div>
+
+    <script src="https://unpkg.com/lunr/lunr.js"></script>
+
+    <script>
+        fetch('{{ "/search.json" | relative_url }}')
+        .then(r => r.json())
+        .then(data => {
+
+            const idx = lunr(function () {
+                this.field('title');
+                this.field('category');
+                this.field('subcategory');
+                this.ref('url');
+
+                data.forEach(doc => this.add(doc));
+            });
+
+            const input = document.getElementById('search-input');
+            const list = document.getElementById('results');
+            const wrapper = document.querySelector('.search-wrapper');
+
+            let lastQuery = '';
+
+            function renderResults(results) {
+                if (!results.length) {
+                    list.innerHTML = '<li>No results found</li>';
+                    return;
+                }
+
+                list.innerHTML = results.map(r => {
+                    const item = data.find(d => d.url === r.ref);
+                    if (!item) return '';
+
+                    return `
+                        <li>
+                            <a href="${item.url}" class="search-link">
+                                ${item.title}
+                            </a>
+                        </li>
+                    `;
+                }).join('');
+
+                list.style.display = 'block';
+            }
+
+            function runSearch(query) {
+                let results = [];
+
+                const terms = query
+                    .trim()
+                    .split(/\s+/)
+                    .filter(Boolean);
+
+                try {
+                    const fuzzyQuery = terms.map(t => `${t}~1`).join(' ');
+                    results = idx.search(fuzzyQuery);
+                } catch (e) {}
+
+                try {
+                    const wildcardQuery = terms.map(t => t + '*').join(' ');
+                    const wildcardResults = idx.search(wildcardQuery);
+
+                    wildcardResults.forEach(r => {
+                        if (!results.find(x => x.ref === r.ref)) {
+                            results.push(r);
+                        }
+                    });
+                } catch (e) {}
+
+                try {
+                    const plain = idx.search(query);
+
+                    plain.forEach(r => {
+                        if (!results.find(x => x.ref === r.ref)) {
+                            results.push(r);
+                        }
+                    });
+                } catch (e) {}
+
+                renderResults(results);
+            }
+
+            input.addEventListener('input', function () {
+                const query = this.value.trim();
+                lastQuery = query;
+
+                if (!query) {
+                    list.innerHTML = '';
+                    list.style.display = 'none';
+                    return;
+                }
+
+                runSearch(query);
+            });
+
+            input.addEventListener('focus', function () {
+                if (lastQuery) {
+                    runSearch(lastQuery);
+                }
+            });
+
+            list.addEventListener('click', (e) => {
+                const link = e.target.closest('a');
+                if (!link) return;
+
+                setTimeout(() => {
+                    list.innerHTML = '';
+                    list.style.display = 'none';
+                }, 0);
+            });
+
+            document.addEventListener('click', (e) => {
+                if (!wrapper.contains(e.target)) {
+                    list.innerHTML = '';
+                    list.style.display = 'none';
+                }
+            });
+
+        });
+    </script>
 </header>

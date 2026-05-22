@@ -1,9 +1,10 @@
 ---
-layout: contentpage
+layout: cgp_addons
 title: "NT: Surgery Plus"
 contentheader: "NT: Surgery Plus"
 category: addons
 subcategory: on_wiki
+addon: surgery_plus
 permalink: /addons/surgery_plus/
 
 blocks:
