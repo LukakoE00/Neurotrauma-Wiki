@@ -1,46 +1,17 @@
 <aside id="sidebar">
 
-    <a href="{{ '/' | relative_url }}">Home</a>
+    {% assign category_pages = site.pages
+        | where_exp: "p", "p.category"
+        | sort: "order" %}
 
-    {% for category in site.data.category_groups %}
+    {% for page in category_pages %}
 
-        {% assign category_key = category[0] %}
-        {% assign category_data = category[1] %}
+        {% assign category_data = site.data.category_groups[page.category] %}
 
-        <details class="sidebar-category">
-
-            <summary>
-                {{ category_data.label }}
-            </summary>
-
-            {% for sub in category_data.subcategories %}
-
-                <details class="sidebar-subcategory">
-
-                    <summary>
-                        {{ sub.label }}
-                    </summary>
-
-                    {% assign pages = site.wikipages
-                        | where: "category", category_key
-                        | where: "subcategory", sub.key
-                        | sort: "title" %}
-
-                    {% for page in pages %}
-
-                        {% if page.title %}
-
-                            <a class="sidebar-page" href="{{ page.url | relative_url }}"> {{ page.title }} </a>
-
-                        {% endif %}
-
-                    {% endfor %}
-
-                </details>
-
-            {% endfor %}
-
-        </details>
+        <a class="sidebar-category"
+           href="{{ page.url | relative_url }}">
+            {{ category_data.label }}
+        </a>
 
     {% endfor %}
 

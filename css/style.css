@@ -52,6 +52,15 @@ header {
     border-bottom: 1px solid var(--colour-borders);
 }
 
+header h2 a {
+    color: var(--colour-text-link);
+    text-decoration: none;
+}
+
+header h2 a:hover {
+    color: var(--colour-text-hover);
+}
+
 /* Navigation Bar */
 /* Determines how the Navigation bar looks and where it sits. Part of the Header. */
 .topnav input{
@@ -168,43 +177,12 @@ body {
     margin-bottom: 1rem;
     background: var(--colour-background-contentbox);
     border: 1px solid var(--colour-borders);
-    color: var(--text-colour);
+    color: var(--colour-text-default);
     text-decoration: none;
 }
 
 /* Determines the look of links when hovering the cursor on them */
 sidebar a:hover {
-    color: var(--colour-text-hover);
-}
-
-/* Handles the drop-down buttons on the sidebar */
-/* TODO: Fix for mobile; make it look nicer. Maybe JS is the way... */
-.sidebar-category summary,
-.sidebar-subcategory summary,
-.sidebar-page {
-    border-radius: 0.5em;
-    padding: 0.2em;
-    display: flex;
-    align-items: center;
-
-    /* Customization */
-    margin-bottom: 1rem;
-    background: var(--colour-background-contentbox);
-    border: 1px solid var(--colour-borders);
-    color: var(--text-colour);
-    text-decoration: none;
-}
-
-.sidebar-subcategory {
-    margin-left: 0.5rem;
-}
-
-.sidebar-page {
-    font-size: 16px;
-    margin-left: 0.5rem;
-}
-
-.sidebar-page:hover {
     color: var(--colour-text-hover);
 }
 
@@ -374,9 +352,20 @@ main {
     border-radius: var(--size-bordercurves);
 }
 
+/* Homepage category title links */
+.block h2 a {
+    color: var(--colour-text-link);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.block h2 a:hover {
+    color: var(--colour-text-hover);
+}
+
 /* 'Links' to Content Pages */
 /* The thing mentioned above. Contains text and an image corresponding to a content page, sorted into categories. */
-.block a {
+.block > a {
     /* Enforces Size */
     height: 40px;
     padding: 5px;
@@ -401,7 +390,7 @@ main {
 
 /* Link-To-Content on hover */
 /* How should it look when hovering? */
-.block a:hover {
+.block > a:hover {
     text-decoration: none;
     transform: translateY(-2px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
@@ -409,7 +398,7 @@ main {
 
 /* Link-To-Content image */
 /* How should the image look while in that block? */
-.block a img {
+.block > a img {
     height: 2em;
     width: auto;
 }
@@ -441,12 +430,6 @@ main {
         position: fixed;
         bottom: 0;
         top: unset;
-    }
-
-    .sidebar-category,
-    .sidebar-subcategory,
-    .sidebar-page{
-        display: none;
     }
 
     #sidebar a{

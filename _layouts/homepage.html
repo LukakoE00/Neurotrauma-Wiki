@@ -21,7 +21,11 @@ layout: default
         {% for cat in sorted_categories %}
             <div class="block">
 
-                <h2>{{ cat.name }}</h2>
+                <h2>
+                    <a href="{{ cat.slug | relative_url }}">
+                        {{ cat.name }}
+                    </a>
+                </h2>
 
                 {% if cat.description %}
                     <p>{{ cat.description }}</p>
