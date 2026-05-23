@@ -399,27 +399,27 @@ main {
 }
 
 /* GO MY LABELS!!! */
-.infobox-label--item { background-color: #216E4E; color: #ffffff; }
-.infobox-label--not-visible-ingame { background-color: #4BCE97; color: #ffffff; }
-.infobox-label--visible-on-health-interface { background-color: #4BCE97; color: #ffffff; }
-.infobox-label--visible-on-hematology-analyzer { background-color: #4BCE97; color: #ffffff; }
-.infobox-label--visible-on-scanner { background-color: #4BCE97; color: #ffffff; }
-.infobox-label--affliction { background-color: #7F5F01; color: #ffffff; }
-.infobox-label--lethality-depends { background-color: #9E4C00; color: #ffffff; }
-.infobox-label--very-important { background-color: #FCA700; color: #ffffff; }
-.infobox-label--first-aid { background-color: #AE2E24; color: #ffffff; }
-.infobox-label--lethal { background-color: #F87168; color: #ffffff; }
-.infobox-label--important { background-color: #C97CF4; color: #ffffff; }
-.infobox-label--non-lethal { background-color: #C97CF4; color: #ffffff; }
-.infobox-label--mechanic { background-color: #1558BC; color: #ffffff; }
-.infobox-label--information { background-color: #669DF1; color: #ffffff; }
-.infobox-label--procedure { background-color: #206A83; color: #ffffff; }
-.infobox-label--surgery { background-color: #206A83; color: #ffffff; }
-.infobox-label--essential { background-color: #94C748; color: #ffffff; }
-.infobox-label--mental-symptom { background-color: #50253F; color: #ffffff; }
-.infobox-label--niche { background-color: #96999E; color: #ffffff; }
-.infobox-label--cybernetics-expansion { background-color: #164555; color: #ffffff; }
-.infobox-label--surgery-plus-expansion { background-color: #6CC3E0; color: #ffffff; }
+.infobox-label--item { background-color: #216E4E; color: #000000; }
+.infobox-label--not-visible-ingame { background-color: #4BCE97; color: #000000; }
+.infobox-label--visible-on-health-interface { background-color: #4BCE97; color: #000000; }
+.infobox-label--visible-on-hematology-analyzer { background-color: #4BCE97; color: #000000; }
+.infobox-label--visible-on-scanner { background-color: #4BCE97; color: #000000; }
+.infobox-label--affliction { background-color: #7F5F01; color: #000000; }
+.infobox-label--lethality-depends { background-color: #9E4C00; color: #000000; }
+.infobox-label--very-important { background-color: #FCA700; color: #000000; }
+.infobox-label--first-aid { background-color: #AE2E24; color: #000000; }
+.infobox-label--lethal { background-color: #F87168; color: #000000; }
+.infobox-label--important { background-color: #C97CF4; color: #000000; }
+.infobox-label--non-lethal { background-color: #C97CF4; color: #000000; }
+.infobox-label--mechanic { background-color: #1558BC; color: #000000; }
+.infobox-label--information { background-color: #669DF1; color: #000000; }
+.infobox-label--procedure { background-color: #206A83; color: #000000; }
+.infobox-label--surgery { background-color: #206A83; color: #000000; }
+.infobox-label--essential { background-color: #94C748; color: #000000; }
+.infobox-label--mental-symptom { background-color: #50253F; color: #000000; }
+.infobox-label--niche { background-color: #96999E; color: #000000; }
+.infobox-label--cybernetics-expansion { background-color: #164555; color: #000000; }
+.infobox-label--surgery-plus-expansion { background-color: #6CC3E0; color: #000000; }
 
 /* Content Page Blocks */
 /* These contain the text, images or other information we want to display on this page. */

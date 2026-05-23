@@ -324,7 +324,7 @@ LIVER_DAMAGE:
   image: /images/afflictions/torso/liver_damage.png
 MORBUSINE_POISONING:
   url: /afflictions/torso/morbusine_poisoning
-  image: /images/afflictions/torso/morbusine_poisoning.png
+  image: /images/afflictions/torso/toxic_poisoning.png
 RADIATION_SICKNESS:
   url: /afflictions/torso/radiation_sickness
   image: /images/afflictions/torso/radiation_sickness.png
