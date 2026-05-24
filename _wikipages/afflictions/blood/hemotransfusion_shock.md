@@ -7,6 +7,14 @@ permalink: /afflictions/blood/hemotransfusion_shock/
 image: /images/svg/blood.svg
 inline_image: /images/afflictions/blood/hemotransfusion_shock.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Lethal
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

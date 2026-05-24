@@ -7,6 +7,15 @@ permalink: /afflictions/blood/blood_loss/
 image: /images/svg/blood.svg
 inline_image: /images/afflictions/blood/blood_loss.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Hematology Analyzer
+          - Visible on Scanner
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

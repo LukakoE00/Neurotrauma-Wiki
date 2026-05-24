@@ -7,6 +7,14 @@ permalink: /afflictions/blood/acidosis/
 image: /images/svg/blood.svg
 inline_image: /images/afflictions/blood/acidosis.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Hematology Analyzer
+          - Affliction
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

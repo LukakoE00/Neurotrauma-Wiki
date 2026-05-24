@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/bloating/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/abdominal_pain.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

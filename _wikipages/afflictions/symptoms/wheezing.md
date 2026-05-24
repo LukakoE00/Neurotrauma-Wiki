@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/wheezing/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/wheezing.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

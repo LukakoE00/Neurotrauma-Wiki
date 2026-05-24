@@ -7,6 +7,15 @@ permalink: /afflictions/any-bodypart/internal-wounds/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/internal_wounds.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Visible on Scanner
+          - Affliction
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

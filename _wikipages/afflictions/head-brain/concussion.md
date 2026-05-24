@@ -7,6 +7,14 @@ permalink: /afflictions/head-brain/concussion/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/concussion.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Scanner
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

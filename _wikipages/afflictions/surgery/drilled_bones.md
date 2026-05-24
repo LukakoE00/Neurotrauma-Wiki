@@ -7,6 +7,14 @@ permalink: /afflictions/surgery/drilled_bones/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/drilled_bones.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Surgery
+
 blocks:
   - type: description
     header: "Description:"

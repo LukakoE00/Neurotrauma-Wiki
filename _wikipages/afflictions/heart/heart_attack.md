@@ -7,6 +7,14 @@ permalink: /afflictions/heart/heart_attack/
 image: /images/svg/heart.svg
 inline_image: /images/afflictions/heart/heart_attack.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Visible on Scanner
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

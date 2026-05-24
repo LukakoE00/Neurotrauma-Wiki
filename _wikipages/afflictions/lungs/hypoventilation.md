@@ -7,6 +7,14 @@ permalink: /afflictions/lungs/hypoventilation/
 image: /images/svg/lungs.svg
 inline_image: /images/afflictions/lungs/hypoventilation.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Non-Lethal
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

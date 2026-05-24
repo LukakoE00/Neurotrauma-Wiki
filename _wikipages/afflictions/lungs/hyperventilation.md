@@ -7,6 +7,14 @@ permalink: /afflictions/lungs/hyperventilation/
 image: /images/svg/lungs.svg
 inline_image: /images/afflictions/lungs/hyperventilation.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

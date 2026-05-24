@@ -6,6 +6,15 @@ subcategory: afflictions
 permalink: /afflictions/cybernetics_enhanced/damaged_electronics/
 inline_image: /images/addon_cybernetics_enhanced/afflictions/damaged_electronics.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+          - Cybernetics Expansion
+          
 blocks:
   - type: description
     header: "Description:"

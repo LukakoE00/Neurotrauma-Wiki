@@ -7,6 +7,14 @@ permalink: /afflictions/head-brain/withdrawal/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/withdrawal.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Non-Lethal
+          - Not Visible Ingame
+
 blocks:
   - type: caused_by
     header: "Caused By:"

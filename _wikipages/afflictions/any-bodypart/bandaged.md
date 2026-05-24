@@ -8,6 +8,14 @@ permalink: /afflictions/any-bodypart/bandaged/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/bandaged.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

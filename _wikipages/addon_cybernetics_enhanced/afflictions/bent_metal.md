@@ -6,6 +6,15 @@ subcategory: afflictions
 permalink: /afflictions/cybernetics_enhanced/bent_metal/
 inline_image: /images/addon_cybernetics_enhanced/afflictions/bent_metal.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Non-Lethal
+          - Cybernetics Expansion
+
 blocks:
   - type: description
     header: "Description:"

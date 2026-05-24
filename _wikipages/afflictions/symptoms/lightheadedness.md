@@ -7,6 +7,15 @@ permalink: /afflictions/symptoms/lightheadedness/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/lightheadedness.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Non-Lethal
+          - Mental Symptom
+
 blocks:
   - type: description
     header: "Description:"

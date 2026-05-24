@@ -7,6 +7,14 @@ permalink: /afflictions/head-brain/spinal_cord_injury/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/spinal_cord_injury.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Non-Lethal
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

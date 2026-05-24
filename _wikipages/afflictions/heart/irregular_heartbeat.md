@@ -7,6 +7,14 @@ permalink: /afflictions/heart/irregular_heartbeat/
 image: /images/svg/heart.svg
 inline_image: /images/afflictions/heart/irregular_heartbeat.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Lethal
+
 blocks:
   - type: description
     header: "Description:"

@@ -7,6 +7,15 @@ permalink: /afflictions/any-bodypart/open-wounds/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/open_wounds.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Visible on Scanner
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

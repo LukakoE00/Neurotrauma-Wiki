@@ -7,6 +7,13 @@ permalink: /afflictions/extremities/clamped_arteries/
 image: /images/svg/extremities.svg
 inline_image: /images/afflictions/extremities/clamped_arteries.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

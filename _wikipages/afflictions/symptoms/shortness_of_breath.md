@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/shortness_of_breath/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/shortness_of_breath.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

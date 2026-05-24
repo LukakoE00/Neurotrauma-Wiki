@@ -7,6 +7,14 @@ permalink: /afflictions/lungs/pneumothorax/
 image: /images/svg/lungs.svg
 inline_image: /images/afflictions/lungs/pneumothorax.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Non-Lethal
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

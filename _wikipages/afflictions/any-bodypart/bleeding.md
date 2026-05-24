@@ -7,6 +7,14 @@ permalink: /afflictions/any-bodypart/bleeding/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/bleeding.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

@@ -7,6 +7,14 @@ permalink: /afflictions/heart/heart_damage/
 image: /images/svg/heart.svg
 inline_image: /images/afflictions/heart/heart_damage.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Scanner
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

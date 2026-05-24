@@ -7,6 +7,15 @@ permalink: /afflictions/head-brain/seizure/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/seizure.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

@@ -7,6 +7,14 @@ permalink: /afflictions/torso/kidney_damage/
 image: /images/svg/torso.svg
 inline_image: /images/afflictions/torso/kidney_damage.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Scanner
+          - Affliction
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

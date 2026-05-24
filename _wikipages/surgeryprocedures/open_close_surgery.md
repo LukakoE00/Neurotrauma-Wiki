@@ -10,9 +10,9 @@ blocks:
     header: "Steps:"
     order: 1
     text: |
-     **1.** Anesthetic of your choice ({{ANALGESIA}}, {{ANESTHESIA}} )
-     **2.** {{SCALPEL}}
-     **3.** {{HEMOSTAT}}
-     **4.** {{SKIN_RETRACTORS}}
-     **5**. {{SUTURES}}
+     1. Anesthetic of your choice ({{ANALGESIA}}, {{ANESTHESIA}} )
+     2. {{SCALPEL}}
+     3. {{HEMOSTAT}}
+     4. {{SKIN_RETRACTORS}}
+     5. {{SUTURES}}
 ---

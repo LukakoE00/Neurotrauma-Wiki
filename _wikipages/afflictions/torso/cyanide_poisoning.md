@@ -7,6 +7,15 @@ permalink: /afflictions/torso/cyanide_poisoning/
 image: /images/svg/torso.svg
 inline_image: /images/afflictions/torso/toxic_poisoning.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Niche
+          - Affliction
+          - Lethal
+          - Visible on Scanner
+
 blocks:
   - type: caused_by
     header: "Caused By:"

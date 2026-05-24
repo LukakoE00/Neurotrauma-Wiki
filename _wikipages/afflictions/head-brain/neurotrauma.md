@@ -7,6 +7,14 @@ permalink: /afflictions/head-brain/neurotrauma/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/neurotrauma.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Scanner
+          - Lethal
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

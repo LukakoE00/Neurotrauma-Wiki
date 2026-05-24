@@ -7,6 +7,14 @@ permalink: /afflictions/lungs/oxygen_low/
 image: /images/svg/lungs.svg
 inline_image: /images/afflictions/lungs/oxygen_low.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Visible on Scanner
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

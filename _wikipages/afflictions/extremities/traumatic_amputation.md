@@ -7,6 +7,14 @@ permalink: /afflictions/extremities/traumatic_amputation/
 image: /images/svg/extremities.svg
 inline_image: /images/afflictions/extremities/traumatic_amputation.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

@@ -7,6 +7,13 @@ permalink: /afflictions/blood/hypertension/
 image: /images/svg/blood.svg
 inline_image: /images/afflictions/blood/hypertension.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Mechanic
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

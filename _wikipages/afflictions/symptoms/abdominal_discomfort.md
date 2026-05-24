@@ -7,6 +7,15 @@ permalink: /afflictions/symptoms/abdominal_discomfort/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/abdominal_pain.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Visible on Health Interface
+          - Affliction
+          - Mental Symptom
+
 blocks:
   - type: description
     header: "Description:"

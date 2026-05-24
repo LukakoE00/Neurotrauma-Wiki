@@ -7,6 +7,15 @@ permalink: /afflictions/symptoms/headache/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/headache.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Non-Lethal
+          - Visible on Health Interface
+          - Mental Symptom
+
 blocks:
   - type: description
     header: "Description:"

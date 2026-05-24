@@ -7,6 +7,15 @@ permalink: /afflictions/torso/sufforin_poisoning/
 image: /images/svg/torso.svg
 inline_image: /images/afflictions/torso/toxic_poisoning.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Scanner
+          - Lethal
+          - Niche
+
 blocks:
   - type: caused_by
     header: "Caused By:"

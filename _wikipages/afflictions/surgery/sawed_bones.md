@@ -7,6 +7,14 @@ permalink: /afflictions/surgery/sawed_bones/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/sawed_bones.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Surgery
+          - Visible on Health Interface
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

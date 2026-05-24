@@ -7,6 +7,15 @@ permalink: /afflictions/symptoms/blurred_vision/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/blurred_vision.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Non-Lethal
+          - Mental Symptom
+
 blocks:
   - type: description
     header: "Description:"

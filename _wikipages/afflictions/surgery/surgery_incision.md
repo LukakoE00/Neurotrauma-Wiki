@@ -7,6 +7,14 @@ permalink: /afflictions/surgery/surgery_incision/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/surgery_incision.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Surgery
+
 blocks:
   - type: description
     header: "Description:"

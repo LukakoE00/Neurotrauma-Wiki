@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/increased_heartrate/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/increased_heartrate.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Affliction
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

@@ -35,5 +35,5 @@ blocks:
     text: |
      - Treating the causes
      - {{ADRENALINE}} (slows down fibrillation)
-     - {{MANUAL_DEFIBRILLATOR}} or {{AUTOMATED_EXTERNAL_DEFIBRILLATOR_AED}}
+     - {{MANUAL_DEFIBRILLATOR}} or {{AED}}
 ---

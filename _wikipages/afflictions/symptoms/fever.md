@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/fever/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/fever.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

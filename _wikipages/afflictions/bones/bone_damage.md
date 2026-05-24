@@ -7,6 +7,14 @@ permalink: /afflictions/bones/bone_damage/
 image: /images/svg/bones.svg
 inline_image: /images/afflictions/bones/bone_damage.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

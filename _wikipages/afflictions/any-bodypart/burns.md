@@ -7,6 +7,14 @@ permalink: /afflictions/any-bodypart/burns/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/burns.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

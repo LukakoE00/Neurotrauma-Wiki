@@ -7,6 +7,15 @@ permalink: /afflictions/lungs/respiratory_arrest/
 image: /images/svg/lungs.svg
 inline_image: /images/afflictions/lungs/respiratory_arrest.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Affliction
+          - Visible on Scanner
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

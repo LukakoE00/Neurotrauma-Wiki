@@ -6,6 +6,16 @@ subcategory: afflictions
 permalink: /afflictions/cybernetics_enhanced/loose_screws/
 inline_image: /images/addon_cybernetics_enhanced/afflictions/loose_screws.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Non-Lethal
+          - Affliction
+          - Cybernetics Expansion
+          - Item
+
 blocks:
   - type: caused_by
     header: "Caused By:"

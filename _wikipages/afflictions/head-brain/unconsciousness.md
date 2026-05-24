@@ -7,6 +7,14 @@ permalink: /afflictions/head-brain/unconsciousness/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/unconsciousness.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

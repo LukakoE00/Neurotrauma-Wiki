@@ -7,6 +7,14 @@ permalink: /afflictions/heart/cardiac_tamponade/
 image: /images/svg/heart.svg
 inline_image: /images/afflictions/heart/cardiac_tamponade.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Scanner
+          - Lethal
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

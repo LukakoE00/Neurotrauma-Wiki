@@ -7,6 +7,15 @@ permalink: /afflictions/extremities/gangrene/
 image: /images/svg/extremities.svg
 inline_image: /images/afflictions/extremities/gangrene.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Visible on Health Interface
+          - Affliction
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

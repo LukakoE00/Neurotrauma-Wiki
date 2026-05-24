@@ -7,6 +7,14 @@ permalink: /afflictions/extremities/plaster_cast/
 image: /images/svg/extremities.svg
 inline_image: /images/afflictions/extremities/plaster_cast.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Non-Lethal
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

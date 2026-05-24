@@ -7,6 +7,14 @@ permalink: /afflictions/blood/hypoxemia/
 image: /images/svg/blood.svg
 inline_image: /images/afflictions/blood/hypoxemia.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Affliction
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

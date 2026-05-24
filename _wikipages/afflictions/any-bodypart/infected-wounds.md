@@ -7,6 +7,14 @@ permalink: /afflictions/any-bodypart/infected-wounds/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/infected_wounds.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Scanner
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

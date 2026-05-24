@@ -7,6 +7,14 @@ permalink: /afflictions/torso/internal_bleeding/
 image: /images/svg/torso.svg
 inline_image: /images/afflictions/torso/internal_bleeding.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Visible on Scanner
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

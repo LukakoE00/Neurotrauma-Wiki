@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/vomiting_blood/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/vomiting_blood.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Non-Lethal
+
 blocks:
   - type: description
     header: "Description:"

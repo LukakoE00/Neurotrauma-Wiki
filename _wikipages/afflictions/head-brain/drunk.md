@@ -7,6 +7,15 @@ permalink: /afflictions/head-brain/drunk/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/drunk.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Lethal
+          - Affliction
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"
@@ -30,9 +39,9 @@ blocks:
     order: 3
     text: |
      - Drinking alcohol, such as:
-     - [Ethanol](https://barotraumagame.com/wiki/Ethanol)
-     - [Rum](https://barotraumagame.com/wiki/Rum)
-     - [Beer](https://barotraumagame.com/wiki/Beer_Bottle)
+      - [Ethanol](https://barotraumagame.com/wiki/Ethanol)
+      - [Rum](https://barotraumagame.com/wiki/Rum)
+      - [Beer](https://barotraumagame.com/wiki/Beer_Bottle)
   
   - type: treatments
     header: "Treatments:"

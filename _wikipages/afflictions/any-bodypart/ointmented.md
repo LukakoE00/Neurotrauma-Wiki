@@ -7,6 +7,14 @@ permalink: /afflictions/any-bodypart/ointmented/
 image: /images/svg/anybodypart.svg
 inline_image: /images/afflictions/any-bodypart/ointmented.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

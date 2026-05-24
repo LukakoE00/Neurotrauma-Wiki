@@ -7,6 +7,12 @@ permalink: /afflictions/blood/hypotension/
 image: /images/svg/blood.svg
 inline_image: /images/afflictions/blood/hypotension.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Mechanic
+          - Lethality Depends
 blocks:
   - type: description
     header: "Description:"

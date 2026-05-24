@@ -7,6 +7,14 @@ permalink: /afflictions/lungs/lung_damage/
 image: /images/svg/lungs.svg
 inline_image: /images/afflictions/lungs/lung_damage.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Scanner
+          - Lethality Depends
+
 blocks:
   - type: description
     header: "Description:"

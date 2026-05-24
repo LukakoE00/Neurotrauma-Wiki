@@ -7,6 +7,17 @@ permalink: /afflictions/surgery/traumatic_shock/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/traumatic_shock.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Lethal
+          - Surgery
+          - Visible on Health Interface
+          - Visible on Scanner
+          - Mechanic
+
 blocks:
   - type: description
     header: "Description:"

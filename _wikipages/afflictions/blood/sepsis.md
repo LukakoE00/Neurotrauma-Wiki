@@ -7,6 +7,14 @@ permalink: /afflictions/blood/sepsis/
 image: /images/svg/blood.svg
 inline_image: /images/afflictions/blood/sepsis.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Hematology Analyzer
+          - Affliction
+          - Lethal
+
 blocks:
   - type: description
     header: "Description:"

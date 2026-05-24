@@ -7,6 +7,14 @@ permalink: /afflictions/torso/aortic_rupture/
 image: /images/svg/torso.svg
 inline_image: /images/afflictions/torso/aortic_rupture.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Affliction
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

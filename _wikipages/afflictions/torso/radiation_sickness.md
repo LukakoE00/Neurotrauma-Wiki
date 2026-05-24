@@ -7,6 +7,14 @@ permalink: /afflictions/torso/radiation_sickness/
 image: /images/svg/torso.svg
 inline_image: /images/afflictions/torso/radiation_sickness.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Visible on Scanner
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

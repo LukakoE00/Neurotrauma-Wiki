@@ -21,7 +21,8 @@ blocks:
       <br><br>
 
       #### Links:
-      - [Trello](https://trello.com/b/ZOQYR2tF/nt-infections-guide)
+      - [Trello (EN)](https://trello.com/b/ZOQYR2tF/nt-infections-guide)
+      - [Trello (RU)](https://trello.com/b/zvfn9tCa/ru-nt-infection)
       - [Workshop Page](https://steamcommunity.com/sharedfiles/filedetails/?id=3286567141)
       - [GitHub Repository](https://github.com/guy567856/NT-Infections.git)
 ---

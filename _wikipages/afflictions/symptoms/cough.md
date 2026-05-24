@@ -7,6 +7,15 @@ permalink: /afflictions/symptoms/cough/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/cough.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Non-Lethal
+          - Affliction
+          - Mental Symptom
+
 blocks:
   - type: description
     header: "Description:"

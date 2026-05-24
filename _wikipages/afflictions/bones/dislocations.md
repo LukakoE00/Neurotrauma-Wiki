@@ -7,6 +7,15 @@ permalink: /afflictions/bones/dislocations/
 image: /images/svg/bones.svg
 inline_image: /images/afflictions/bones/dislocations.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Scanner
+          - Visible on Health Interface
+          - Non-Lethal
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

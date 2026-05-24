@@ -7,6 +7,15 @@ permalink: /afflictions/heart/cardiac_arrest/
 image: /images/svg/heart.svg
 inline_image: /images/afflictions/heart/cardiac_arrest.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Affliction
+          - Visible on Health Interface
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

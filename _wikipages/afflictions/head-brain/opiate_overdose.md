@@ -7,6 +7,14 @@ permalink: /afflictions/head-brain/opiate_overdose/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/opiate_overdose.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Lethal
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

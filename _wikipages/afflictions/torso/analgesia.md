@@ -7,6 +7,14 @@ permalink: /afflictions/torso/analgesia/
 image: /images/svg/torso.svg
 inline_image: /images/afflictions/torso/analgesia.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

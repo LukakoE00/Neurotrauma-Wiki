@@ -7,6 +7,15 @@ permalink: /afflictions/bones/fractures/
 image: /images/svg/bones.svg
 inline_image: /images/afflictions/bones/fractures.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Visible on Scanner
+          - Non-Lethal
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

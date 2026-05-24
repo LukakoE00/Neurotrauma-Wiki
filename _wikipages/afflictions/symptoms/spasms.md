@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/spasms/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/spasms.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Non-Lethal
+          - Affliction
+
 blocks:
   - type: description
     header: "Description:"

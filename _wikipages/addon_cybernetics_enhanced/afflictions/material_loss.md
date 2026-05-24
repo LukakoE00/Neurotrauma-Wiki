@@ -6,6 +6,16 @@ subcategory: afflictions
 permalink: /afflictions/cybernetics_enhanced/material_loss/
 inline_image: /images/addon_cybernetics_enhanced/afflictions/material_loss.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+          - Lethal
+          - Cybernetics Expansion
+
 blocks:
   - type: description
     header: "Description:"

@@ -7,6 +7,15 @@ permalink: /afflictions/symptoms/craving/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/craving.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Non-Lethal
+          - Mental Symptom
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

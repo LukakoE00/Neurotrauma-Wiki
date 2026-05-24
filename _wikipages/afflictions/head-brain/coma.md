@@ -7,6 +7,14 @@ permalink: /afflictions/head-brain/coma/
 image: /images/svg/brain.svg
 inline_image: /images/afflictions/head-brain/coma.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Non-Lethal
+          - Visible on Scanner
+
 blocks:
   - type: description
     header: "Description:"

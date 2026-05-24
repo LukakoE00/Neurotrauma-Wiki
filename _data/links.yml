@@ -135,6 +135,9 @@ RADIOTOXIN:
 ANTIRAD:
   url: https://barotraumagame.com/wiki/Antirad
   image: /images/non-neurotrauma/resources/antirad.png
+CHLORAL_HYDRATE: 
+  url: https://barotraumagame.com/wiki/Chloral_Hydrate
+  image: /images/non-neurotrauma/resources/chloral_hydrate.png
 
 # NON-NEUROTRAUMA MEDICAL AFFLICTIONS
 OPIATE_ADDICTION:

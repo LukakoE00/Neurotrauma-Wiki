@@ -7,6 +7,14 @@ permalink: /afflictions/extremities/arterial_bleeding/
 image: /images/svg/extremities.svg
 inline_image: /images/afflictions/extremities/arterial_bleeding.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Lethal
+          - Affliction
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

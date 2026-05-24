@@ -7,6 +7,14 @@ permalink: /afflictions/surgery/retracted_skin/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/retracted_skin.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Surgery
+
 blocks:
   - type: description
     header: "Description:"

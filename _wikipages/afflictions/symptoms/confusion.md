@@ -7,6 +7,15 @@ permalink: /afflictions/symptoms/confusion/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/confusion.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Visible on Health Interface
+          - Non-Lethal
+          - Affliction
+          - Mental Symptom
+
 blocks:
   - type: description
     header: "Description:"

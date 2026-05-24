@@ -7,6 +7,14 @@ permalink: /afflictions/symptoms/pale_skin/
 image: /images/svg/symptoms.svg
 inline_image: /images/afflictions/symptoms/pale_skin.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Non-Lethal
+          - Affliction
+          - Visible on Health Interface
+
 blocks:
   - type: description
     header: "Description:"

@@ -7,6 +7,14 @@ permalink: /afflictions/surgery/clamped_bleeding/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/clamped_bleeding.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Affliction
+          - Visible on Health Interface
+          - Surgery
+
 blocks:
   - type: description
     header: "Description:"
