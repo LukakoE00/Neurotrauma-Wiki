@@ -51,12 +51,12 @@ blocks:
     text: |
 
      - \-12% {{INTERNAL_DAMAGE}}
-     - \+18% [Chem addiction](https://barotraumagame.com/wiki/Chem_Addiction)
+     - \+18% {{CHEMICAL_ADDICTION}}
      - \+18% {{NEUROTRAUMA}}
      - \+15% {{PSYCHOSIS}}
-     - \+400% [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity)
-     - \+400% [Vigor](https://barotraumagame.com/wiki/Vigor)
-     - \-54% [Stun](https://barotraumagame.com/wiki/Stun)
+     - \+400% {{HYPERACTIVITY}}
+     - \+400% {{VIGOR}}
+     - \-54% {{STUN}}
      - \-90% {{CHEMICAL_WITHDRAWAL}}
 
   - type: application_failure
@@ -65,14 +65,14 @@ blocks:
     text: |
 
      - \-6% {{INTERNAL_DAMAGE}}
-     - \+36% [Chem addiction](https://barotraumagame.com/wiki/Chem_Addiction)
+     - \+36% {{CHEMICAL_ADDICTION}}
      - \+36% {{NEUROTRAUMA}}
      - \+30% {{PSYCHOSIS}}
-     - \+400% [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity)
-     - \+400% [Vigor](https://barotraumagame.com/wiki/Vigor)
-     - \-27% [Stun](https://barotraumagame.com/wiki/Stun)
+     - \+400% {{HYPERACTIVITY}}
+     - \+400% {{VIGOR}}
+     - \-27% {{STUN}}
      - \-90% {{CHEMICAL_WITHDRAWAL}}
      <br><br>
-     [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity) and Vigor are applied instantly, while the other effects are applied over a 60 second duration.
+     {{HYPERACTIVITY}} and Vigor are applied instantly, while the other effects are applied over a 60 second duration.
 
 ---

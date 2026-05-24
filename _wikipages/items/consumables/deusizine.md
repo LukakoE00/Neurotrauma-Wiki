@@ -58,10 +58,10 @@ blocks:
      - \-50% {{BLEEDING}}
      - \-100% {{HYPOXEMIA}}
      - \-20% {{VANILLA_ORGAN_DAMAGE}}
-     - \-6% [Stun](https://barotraumagame.com/wiki/Stun)
+     - \-6% {{STUN}}
      - \+4% {{BURNS}}
      - \+40% Blood Pressure
-     - \+200% [Vigor](https://barotraumagame.com/wiki/Vigor)
+     - \+200% {{VIGOR}}
 
   - type: application_failure
     header: "Application Failure:"
@@ -74,6 +74,6 @@ blocks:
      - \-10% {{VANILLA_ORGAN_DAMAGE}}
      - \+20% {{BURNS}}
      - \+20% Blood Pressure
-     - \+200% [Vigor](https://barotraumagame.com/wiki/Vigor)
+     - \+200% {{VIGOR}}
 
 ---

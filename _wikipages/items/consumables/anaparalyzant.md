@@ -52,7 +52,7 @@ blocks:
     order: 2
     text: |
      - Instantly cures {{ANESTHESIA}}
-     - \+800% [Paralysis Resistance](https://barotraumagame.com/wiki/Paralysis_Resistance).
+     - \+800% {{PARALYSIS_RESISTANCE}}.
      - \+5% {{PSYCHOSIS}}
 
   - type: application_failure
@@ -60,7 +60,7 @@ blocks:
     order: 3
     text: |
      - \-3% {{ANESTHESIA}} per second for 60 seconds.
-     - \+6.5% [Paralysis Resistance](https://barotraumagame.com/wiki/Paralysis_Resistance) per second for 60 seconds.
+     - \+6.5% {{PARALYSIS_RESISTANCE}} per second for 60 seconds.
      - \+0.75% {{PSYCHOSIS}} per second for 60 seconds.
 
 ---

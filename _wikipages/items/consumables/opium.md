@@ -50,14 +50,14 @@ blocks:
     text: |
 
      - \+20% {{ANALGESIA}}
-     - \+5% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \+5% {{OPIATE_ADDICTION}}
      - \+8.75% {{OPIATE_OVERDOSE}}
      - \-15% {{OPIATE_WITHDRAWAL}}
 
      #### While >30% drunk changes to:
 
      - \+40% {{ANALGESIA}}
-     - \+5% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \+5% {{OPIATE_ADDICTION}}
      - \+18.75% {{OPIATE_OVERDOSE}}
      - \-15% {{OPIATE_WITHDRAWAL}}
 
@@ -67,14 +67,14 @@ blocks:
     text: |
 
      - \+10% {{ANALGESIA}}
-     - \+20% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \+20% {{OPIATE_ADDICTION}}
      - \+15% {{OPIATE_OVERDOSE}}
      - \-15% {{OPIATE_WITHDRAWAL}}
 
      #### While >30% drunk changes to:
 
      - \+20% {{ANALGESIA}}
-     - \+20% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \+20% {{OPIATE_ADDICTION}}
      - \+30% {{OPIATE_OVERDOSE}}
      - \-15% {{OPIATE_WITHDRAWAL}}
 ---

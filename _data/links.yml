@@ -106,6 +106,15 @@ PARALYZANT:
 CYANIDE:
   url: https://barotraumagame.com/wiki/Cyanide
   image: /images/non-neurotrauma/resources/cyanide.png
+CYANIDE_ANTIDOTE:
+  url: https://barotraumagame.com/wiki/Cyanide_Antidote
+  image: /images/non-neurotrauma/resources/cyanide_antidote.png
+MORBUSINE_ANTIDOTE:
+  url: https://barotraumagame.com/wiki/Morbusine_Antidote
+  image: /images/non-neurotrauma/resources/morbusine_antidote.png
+SUFFORIN_ANTIDOTE:
+  url: https://barotraumagame.com/wiki/Sufforin_Antidote
+  image: /images/non-neurotrauma/resources/sufforin_antidote.png
 STABILOZINE:
   url: https://barotraumagame.com/wiki/Stabilozine
   image: /images/non-neurotrauma/resources/stabilozine.png
@@ -123,6 +132,30 @@ DELIRIUMINE_POISONING:
 PSYCHOSIS:
   url: https://barotraumagame.com/wiki/Psychosis
   image: /images/non-neurotrauma/afflictions/psychosis.png
+HUSK_INFECTION: 
+  url: https://barotraumagame.com/wiki/Husk_Infection
+  image: /images/non-neurotrauma/afflictions/husk_infection.png
+STUN: 
+  url: https://barotraumagame.com/wiki/Stun
+  image: /images/non-neurotrauma/afflictions/stun.png
+VIGOR:
+  url: https://barotraumagame.com/wiki/Vigor
+  image: /images/non-neurotrauma/afflictions/vigor.png
+PARALYSIS_RESISTANCE:
+  url: https://barotraumagame.com/wiki/Paralysis_Resistance
+  image: /images/non-neurotrauma/afflictions/psychosis_resistance.png
+PSYCHOSIS_RESISTANCE:
+  url: https://barotraumagame.com/wiki/Psychosis_Resistance
+  image: /images/non-neurotrauma/afflictions/psychosis_resistance.png
+HUSK_INFECTION_RESISTANCE:
+  url: https://barotraumagame.com/wiki/Husk_Infection_Resistance
+  image: /images/non-neurotrauma/afflictions/husk_infection_resistance.png
+HYPERACTIVITY:
+  url: https://barotraumagame.com/wiki/Hyperactivity
+  image: /images/non-neurotrauma/afflictions/hyperactivity.png
+PRESSURE_STABILIZED:
+  url: https://barotraumagame.com/wiki/Pressure_Stabilized
+  image: /images/non-neurotrauma/afflictions/pressure_stabilized.png
 
 # ----------------------------------------- NEUROTRAUMA ------------------------------------------------
 # AFFLICTIONS

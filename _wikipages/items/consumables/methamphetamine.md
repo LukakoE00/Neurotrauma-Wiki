@@ -54,12 +54,12 @@ blocks:
     order: 2
     text: |
 
-     - \+70% [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity)
+     - \+70% {{HYPERACTIVITY}}
      - \+15% {{VANILLA_ORGAN_DAMAGE}}
      - \+15% {{NEUROTRAUMA}}
-     - \+15% [Chem addiction](https://barotraumagame.com/wiki/Chem_Addiction)
+     - \+15% {{CHEMICAL_ADDICTION}}
      - \+30% {{PSYCHOSIS}}
-     - \-22.5% [Stun](https://barotraumagame.com/wiki/Stun)
+     - \-22.5% {{STUN}}
      - \-90% {{CHEMICAL_WITHDRAWAL}}
 
   - type: application_failure
@@ -67,14 +67,14 @@ blocks:
     order: 3
     text: |
 
-     - \+50% [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity)
+     - \+50% {{HYPERACTIVITY}}
      - \+30% {{VANILLA_ORGAN_DAMAGE}}
      - \+30% {{NEUROTRAUMA}}
-     - \+30% [Chem addiction](https://barotraumagame.com/wiki/Chem_Addiction)
+     - \+30% {{CHEMICAL_ADDICTION}}
      - \+45% {{PSYCHOSIS}}
-     - \-22.5% [Stun](https://barotraumagame.com/wiki/Stun)
+     - \-22.5% {{STUN}}
      - \-90% {{CHEMICAL_WITHDRAWAL}}
 
-     [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity) occurs instantly, while the other effects occur over 30 seconds.
+     {{HYPERACTIVITY}} occurs instantly, while the other effects occur over 30 seconds.
 
 ---

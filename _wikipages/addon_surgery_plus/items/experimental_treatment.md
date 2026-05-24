@@ -52,16 +52,16 @@ blocks:
      <br><br>
      #### The list of possible positive effects are as follows:
 
-     - [Vigor](https://barotraumagame.com/wiki/Vigor) (randomly picks from 200-400% strength)
-     - [Hyperactivity](https://barotraumagame.com/wiki/Hyperactivity) (randomly picks from 200-400% strength)
-     - [Psychosis Resistance](https://barotraumagame.com/wiki/Psychosis_Resistance) (randomly picks from 200-400% strength)
-     - [Husk Infection Resistance](https://barotraumagame.com/wiki/Husk_Infection_Resistance) (randomly picks from 200-400% strength)
-     - [Paralysis Resistance](https://barotraumagame.com/wiki/Paralysis_Resistance) (randomly picks from 300-600% strength)
+     - {{VIGOR}} (randomly picks from 200-400% strength)
+     - {{HYPERACTIVITY}} (randomly picks from 200-400% strength)
+     - {{PSYCHOSIS_RESISTANCE}} (randomly picks from 200-400% strength)
+     - {{HUSK_INFECTION_RESISTANCE}} (randomly picks from 200-400% strength)
+     - {{PARALYSIS_RESISTANCE}} (randomly picks from 300-600% strength)
      - {{ANALGESIA}} (randomly picks from 20-100% strength)
      - {{ANESTHESIA}} (randomly picks from 1-100% strength)
      - {{OINTMENTED}} (randomly picks from 20-100% strength)
      - {{COMBAT_STIMULANT}} (randomly picks from 30-100% strength)
-     - [Pressure Stabilized](https://barotraumagame.com/wiki/Pressure_Stabilized) (randomly picks from 30-100% strength)
+     - {{PRESSURE_STABILIZED}} (randomly picks from 30-100% strength)
      - A full heal (treats 20-100% of {{OPEN_WOUNDS}}, {{VANILLA_ORGAN_DAMAGE}}, {{NEUROTRAUMA}} and {{BLOOD_LOSS}}, and fully cures {{SEPSIS}})
      
      <br><br>
@@ -69,6 +69,6 @@ blocks:
 
      - {{OPEN_WOUNDS}} (5-20%)
      - {{BLEEDING}} (30-80%)
-     - [Stun](https://barotraumagame.com/wiki/Stun) for 2-15 seconds
+     - {{STUN}} for 2-15 seconds
 
 ---

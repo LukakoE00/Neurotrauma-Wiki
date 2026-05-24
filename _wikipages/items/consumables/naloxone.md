@@ -52,7 +52,7 @@ blocks:
 
      - \-60% {{OPIATE_WITHDRAWAL}}
      - \-60% {{OPIATE_OVERDOSE}}
-     - \-60% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \-60% {{OPIATE_ADDICTION}}
      - \-60% {{ANALGESIA}}
      - \-60% Opioids
 
@@ -63,7 +63,7 @@ blocks:
 
      - \-30% {{OPIATE_WITHDRAWAL}}
      - \-30% {{OPIATE_OVERDOSE}}
-     - \-30% [Opiate Addiction](https://barotraumagame.com/wiki/Opiate_Addiction)
+     - \-30% {{OPIATE_ADDICTION}}
      - \-60% {{ANALGESIA}}
      - \-60% Opioids
      - \+15% {{COMA}} (50% chance)
