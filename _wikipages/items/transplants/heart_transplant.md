@@ -7,13 +7,41 @@ permalink: /items/transplants/heart_transplant
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/transplants/heart_transplant.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 40"
+          - "Maximum inventory stack: 1"
+          - "Should be refrigerated"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 4000 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 40
-
      A vital organ. The patient’s heart-related afflictions, such as {{HEART_DAMAGE}}, are directly linked to it.
 
      The heart may be removed or transplanted during an {{ORGAN_TRANSPLANT_SURGERY}} done on the torso. Removal of the heart causes immediate {{CARDIAC_ARREST}}, 100% {{HEART_DAMAGE}}, and up to 20% {{VANILLA_ORGAN_DAMAGE}}, inversely proportional to heart damage before removal. The condition of the organ is inversely proportional to heart damage before removal. The patient cannot gain and will be immediately relieved of {{CARDIAC_TAMPONADE}} and {{HEART_ATTACK}} while their heart is removed.

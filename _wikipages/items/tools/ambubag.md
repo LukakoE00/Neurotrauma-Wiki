@@ -7,6 +7,37 @@ permalink: /items/tools/ambubag
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/ambubag.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+          - "Requires an Oxygen Tank (or similar)"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 30"
+            - "{{PLASTIC}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 100 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

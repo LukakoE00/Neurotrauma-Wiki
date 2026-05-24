@@ -7,6 +7,35 @@ permalink: /items/tools/body_bag
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/body_bag.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 5"
+            - "{{PLASTIC}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 60 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

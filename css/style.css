@@ -419,8 +419,26 @@ main {
 .infobox-label--essential { background-color: #94C748; color: #000000; }
 .infobox-label--mental-symptom { background-color: #50253F; color: #000000; }
 .infobox-label--niche { background-color: #96999E; color: #000000; }
+.infobox-label--toggleable { background-color: #1558BC; color: #000000; }
 .infobox-label--cybernetics-expansion { background-color: #164555; color: #000000; }
 .infobox-label--surgery-plus-expansion { background-color: #6CC3E0; color: #000000; }
+
+/* Just list all pages side by side in the Label-specific pages */
+.blocks-labelpage {
+    width: 100%;
+}
+
+.blocks-labelpage-grid {
+    width: 100%;
+}
+
+.blocks-labelpage-grid .block {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    width: 100%;
+}
+
 
 /* Content Page Blocks */
 /* These contain the text, images or other information we want to display on this page. */

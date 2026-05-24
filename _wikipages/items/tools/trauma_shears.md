@@ -7,12 +7,43 @@ permalink: /items/tools/trauma_shears
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/trauma_shears.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Surgery
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 10"
+          - "Maximum inventory stack: 1"
+          
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "{{MEDICAL}} 25"
+            - "{{STEEL_BAR}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 50 marks"
+          - "Buyable at Outpost: Habitation, Colony"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 10
 
      A pair of scissors used to remove {{PLASTER_CAST}} and {{BANDAGED}}.
 

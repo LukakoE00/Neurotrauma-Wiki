@@ -7,6 +7,38 @@ permalink: /items/surgery_plus/brain_jar
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_surgery_plus/items/brain_jar.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Surgery Plus Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Therapist-in-Training Talent (Surgeon)"
+            - "{{STEEL_BAR}} (1x)"
+            - "{{SILICON}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{STEEL_BAR}} (1x)"
+            - "{{SILICON}} (1x)"
+            - "{{MANNITOL}} (1x) (No, this is not a typo.)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Cannot be bought"
+
 blocks:
   - type: description
     header: "Description:"

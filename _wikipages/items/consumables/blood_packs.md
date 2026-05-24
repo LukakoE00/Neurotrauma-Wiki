@@ -7,6 +7,37 @@ permalink: /items/consumables/blood_packs
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/blood_packs.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+          - First Aid
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{SALINE}} (1x)"
+            - "{{STABILOZINE}} (1x)"
+            
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 240 marks"
+          - "Buyable at Merchant: Medical, Husk"
+
 blocks:
   - type: description
     header: "Description:"

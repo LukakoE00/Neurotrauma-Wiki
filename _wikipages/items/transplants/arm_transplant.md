@@ -7,6 +7,35 @@ permalink: /items/transplants/arm_transplant
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/transplants/arm_transplant.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Surgery
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+          - "Should be refrigerated"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{CALCIUM}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 1000 marks"
+          - "Buyable at Merchant: Medical (Bionic Arm)"
+
 blocks:
   - type: description
     header: "Description:"

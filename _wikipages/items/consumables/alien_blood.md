@@ -25,11 +25,11 @@ infobox:
     sections:
       - header: "Medical Fabricator Requirements"
         items:
-            - "- Cannot be fabricated."
+            - "Cannot be fabricated."
 
       - header: "Deconstructor Yield"
         items:
-            - "- Has no deconstructor outputs."
+            - "Has no deconstructor outputs."
 
   - title: Store
     sections:
@@ -49,7 +49,7 @@ blocks:
     order: 2
     text: |
      - \-20% {{BLOOD_LOSS}}
-     - \+60% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \+60% {{PSYCHOSIS}}
      - \+100% {{HEMOTRANSFUSION_SHOCK}}
 
   - type: application_failure
@@ -57,6 +57,6 @@ blocks:
     order: 3
     text: |
      - \-20% {{BLOOD_LOSS}}
-     - \+60% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \+60% {{PSYCHOSIS}}
      - \+100% {{HEMOTRANSFUSION_SHOCK}}
 ---

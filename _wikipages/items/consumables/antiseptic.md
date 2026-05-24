@@ -7,6 +7,38 @@ permalink: /items/consumables/antiseptic
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/antiseptic.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Toggleable
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 40"
+            - "{{CHLORINE}} (1x)"
+            - "{{ETHANOL}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 100 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

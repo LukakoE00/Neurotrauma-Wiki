@@ -7,6 +7,68 @@ permalink: /items/cybernetics_enhanced/cyberheart
 # image: /images/svg/anybodypart.svg
 # inline_image: /images/addon_cybernetics_enhanced/items/cyberheart.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Cybernetics Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 70"
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting (T1 Augmented Heart)
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MECHANICAL}} 70"
+            - "{{MEDICAL}} 60"
+            - "{{HEART_TRANSPLANT}} (min. condition 50%) (1x)"
+            - "{{FULGURIUM_CHUNK}} (1x)"
+            - "{{FPGA_CIRCUIT}} (1x)"
+            - "{{STABILOZINE}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{FULGURIUM_CHUNK}} (1x)"
+            - "{{FPGA_CIRCUIT}} (1x)"
+
+  - title: Store (T1 Augmented Heart)
+    sections:
+      - items:
+          - "Minimum Difficulty: 8%"
+          - "Base Price: 2000 marks"
+          - "Buyable at Merchant: Medical, Research"
+
+  - title: Crafting (T2 Cyberheart)
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "Requires Recipe"
+            - "{{MECHANICAL}} 90"
+            - "{{MEDICAL}} 80"
+            - "{{FULGURIUM_CHUNK}} (4x)"
+            - "{{FPGA_CIRCUIT}} (3x)"
+            - "{{STABILOZINE}} (3x)"
+            - "{{PLASTIC}} (4x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{FULGURIUM_CHUNK}} (3x)"
+            - "{{FPGA_CIRCUIT}} (2x)"
+            - "{{PLASTIC}} (3x)"
+
+  - title: Store (T2 Cyberheart)
+    sections:
+      - items:
+          - "Minimum Difficulty: 30%"
+          - "Base Price: 3500 marks"
+          - "Buyable at Merchant: Medical, Research"
+
 blocks:
   - type: description
     header: "Description:"

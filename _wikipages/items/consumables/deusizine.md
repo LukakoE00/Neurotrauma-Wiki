@@ -7,13 +7,46 @@ permalink: /items/consumables/deusizine
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/deusizine.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Niche
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 72"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 70"
+            - "{{ANTIBIOTIC_GLUE}} (1x)"
+            - "{{FENTANYL}} (1x)"
+            - "{{LIQUID_OXYGENITE}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{ANTIBIOTIC_GLUE}} (1x)"
+            - "{{OPIUM}} (1x)"
+            - "{{LIQUID_OXYGENITE}} (1x)"
+  - title: Store
+    sections:
+      - items:
+          - "Minimum Difficulty: 50%"
+          - "Base Price: 500 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 72
-
      A special drug, treating a variety of life-threatening afflictions over 20 seconds and providing a moderate Vigor buff.
 
   - type: application_success

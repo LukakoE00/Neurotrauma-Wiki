@@ -7,6 +7,35 @@ permalink: /items/surgery_plus/triage_card
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_surgery_plus/items/triage_card.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Surgery Plus Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "{{MEDICAL}} 5"
+            - "{{PLASTIC}} (1x)"
+            
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 50 Marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

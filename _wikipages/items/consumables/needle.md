@@ -7,13 +7,43 @@ permalink: /items/consumables/needle
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/needle.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum inventory stack: 16"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 2x)"
+        items:
+            - "{{MEDICAL}} 20"
+            - "{{PLASTIC}} (1x)"
+            - "{{ALUMINIUM}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 60 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 20
-
      A consumable needle that reduces the strength of {{PNEUMOTHORAX}} to 15% and {{CARDIAC_TAMPONADE}} to 5%, but does not treat them. If the patient does not have pneumothorax, the needle will give them {{PNEUMOTHORAX}} instead.
 
   - type: application_success

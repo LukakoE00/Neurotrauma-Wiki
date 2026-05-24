@@ -7,6 +7,40 @@ permalink: /items/tools/stasis_bag
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/stasis_bag.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 50"
+            - "{{PLASTIC}} (1x)"
+            - "{{STABILOZINE}} (1x)"
+            - "{{MANNITOL}} (1x)"
+            - "{{POTASSIUM}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{PLASTIC}} (1x)"
+            - "{{POTASSIUM}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 700 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
@@ -36,7 +70,7 @@ blocks:
      - {{INFECTED_WOUNDS}}
      - {{BLEEDING}}
 
-     Additionally, the wearer’s {{HUSK_INFECTION}} will be reduced by 0.15/s, if it is lower than 100%.
+     Additionally, the wearer’s Husk Infection will be reduced by 0.15/s, if it is lower than 100%.
 
      Patients in a Stasis Bag cannot receive surgery, and will not be able to receive surgery for 3 seconds after being removed from the bag. They can still receive items such as drugs, however.
 

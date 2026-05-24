@@ -7,13 +7,44 @@ permalink: /items/consumables/antibiotic_ointment
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/antibiotic_ointment.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 55"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 4x)"
+        items:
+            - "{{MEDICAL}} 10"
+            - "{{STABILOZINE}} (1x)"
+            - "{{BROAD_SPECTRUM_ANTIBIOTICS}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 40 marks"
+          - "Buyable at Outposts: Habitation, Colony"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 10
-
      Antibiotic ointment is an item used to treat {{INFECTED_WOUNDS}} and prevent them for some time.
 
      It can be crafted at a medical fabricator or bought from a medical merchant.

@@ -7,6 +7,42 @@ permalink: /items/surgery_plus/mannitol_plus
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_surgery_plus/items/mannitol_plus.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Surgery Plus Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 70"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Mannitol Maniac Talent (Surgeon)"
+            - "{{MEDICAL}} 80"
+            - "{{SURGERY}} 80"
+            - "{{MANNITOL}} (1x)"
+            - "{{ADRENALINE}} (1x)"
+            - "{{LIQUID_OXYGENITE}} (1x)"
+            - "{{STABILOZINE}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{MANNITOL}} (1x)"
+            - "{{ADRENALINE}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Cannot be bought"
+
 blocks:
   - type: description
     header: "Description:"

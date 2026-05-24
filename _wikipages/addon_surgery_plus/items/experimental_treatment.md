@@ -7,6 +7,41 @@ permalink: /items/surgery_plus/experimental_treatment
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_surgery_plus/items/experimental_treatment.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Surgery Plus Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Unethical Sourcing Talent (Surgeon)"
+            - "{{MEDICAL}} 60"
+            - "{{SURGERY}} 40"
+            - "{{PROPOFOL}} (1x)"
+            - "{{CYANIDE}} (1x)"
+            - "{{ADRENALINE}} (1x)"
+            - "{{URANIUM}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Cannot be bought"
+
 blocks:
   - type: description
     header: "Description:"

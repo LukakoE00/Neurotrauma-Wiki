@@ -7,6 +7,39 @@ permalink: /items/upgrades/analgesic_tank
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/upgrades/analgesic_tank.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 40"
+            - "{{MECHANICAL}} 20"
+            - "{{ALUMINIUM}} (2x)"
+            - "{{MORPHINE}} (2x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{ALUMINIUM}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 270 marks"
+          - "Buyable at Outposts: Habitation, Colony"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

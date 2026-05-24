@@ -7,6 +7,66 @@ permalink: /items/cybernetics_enhanced/cyberbrain_implant
 # image: /images/svg/anybodypart.svg
 # inline_image: /images/addon_cybernetics_enhanced/items/cyberbrain_implant.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Cybernetics Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 80"
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting (T1 Augmented Brain)
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 60"
+            - "{{ELECTRICAL}} 80"
+            - "{{FULGURIUM_CHUNK}} (2x)"
+            - "{{FPGA_CIRCUIT}} (4x)"
+            - "{{STABILOZINE}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{FULGURIUM_CHUNK}} (2x)"
+            - "{{FPGA_CIRCUIT}} (3x)"
+
+  - title: Store (T1 Augmented Brain)
+    sections:
+      - items:
+          - "Minimum Difficulty: 8%"
+          - "Base Price: 2000 marks"
+          - "Buyable at Merchant: Medical, Research"
+
+  - title: Crafting (T2 Cyberbrain)
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "Requires Recipe"
+            - "{{MEDICAL}} 100"
+            - "{{ELECTRICAL}} 100"
+            - "Augmented Brain (1x)"
+            - "{{FULGURIUM_CHUNK}} (2x)"
+            - "{{FPGA_CIRCUIT}} (4x)"
+            - "{{STABILOZINE}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{FULGURIUM_CHUNK}} (3x)"
+            - "{{FPGA_CIRCUIT}} (4x)"
+
+  - title: Store (T2 Cyberbrain)
+    sections:
+      - items:
+          - "Minimum Difficulty: 30%"
+          - "Base Price: 4000 marks"
+          - "Buyable at Merchant: Medical, Research"
+
 blocks:
   - type: description
     header: "Description:"
@@ -55,6 +115,6 @@ blocks:
     header: "How to Remove:"
     order: 3
     text: |
-     {{ORGAN_TRANSPLANT_SURGERY}} _once_ will return the Implant, using the {{ORGAN_PROCUREMENT_SCALPELS}} a second time will remove the patient’s brain, which they probably need.
+     {{ORGAN_TRANSPLANT_SURGERY}} _once_ will return the Implant, using the {{MULTIPURPOSE_SCALPEL}} a second time will remove the patient’s brain, which they probably need.
 
 ---

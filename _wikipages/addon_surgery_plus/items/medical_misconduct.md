@@ -7,6 +7,35 @@ permalink: /items/surgery_plus/medical_misconduct
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_surgery_plus/items/medical_misconduct.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Surgery Plus Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+            
+      - header: "Deconstructor Yield"
+        items:
+            - "{{CARBON}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 350 Marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

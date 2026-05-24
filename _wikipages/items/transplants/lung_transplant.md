@@ -7,13 +7,41 @@ permalink: /items/transplants/lung_transplant
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/transplants/lung_transplant.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 40"
+          - "Maximum inventory stack: 1"
+          - "Should be refrigerated"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 2000 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 40
-
      A vital organ. The patient’s lung-related afflictions, such as {{LUNG_DAMAGE}}, are directly linked to it.
 
      The lungs may be removed or transplanted during an {{ORGAN_TRANSPLANT_SURGERY}} done on the torso. Removal of the lungs causes immediate {{RESPIRATORY_ARREST}}, 100% {{LUNG_DAMAGE}}, and up to 20% {{VANILLA_ORGAN_DAMAGE}}, inversely proportional to lung damage before removal. The condition of the organ is inversely proportional to lung damage before removal. The patient cannot gain and will be immediately relieved of {{PNEUMOTHORAX}}, and will gain {{OXYGEN_LOW}} even if they are receiving {{SURGERY_TABLE}} or wearing an {{AUTOPULSE}}, while their lungs are removed.

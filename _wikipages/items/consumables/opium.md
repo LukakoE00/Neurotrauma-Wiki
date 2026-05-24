@@ -7,14 +7,42 @@ permalink: /items/consumables/opium
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/opium.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Very Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 40"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 40 marks"
+          - "Buyable at Outposts: Habitation, Colony, Research"
+          - "Available in Vending Machines"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 15
-
-     A weak opiate used to induce {{ANALGESIA}}.
+     A weak opiate used to induce {{ANALGESIA}}. Obtained by deconstructing [Aquatic Poppies](https://barotraumagame.com/wiki/Aquatic_Poppy).
 
   - type: application_success
     header: "Application Success:"

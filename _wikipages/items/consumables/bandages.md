@@ -7,6 +7,38 @@ permalink: /items/consumables/bandages
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/bandages.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 10"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 3x)"
+        items:
+            - "{{MEDICAL}} 5"
+            - "{{ORGANIC_FIBER}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 30 marks"
+          - "Buyable at Outposts: All"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

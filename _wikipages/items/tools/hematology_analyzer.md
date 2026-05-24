@@ -7,6 +7,41 @@ permalink: /items/tools/hematology_analyzer
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/hematology_analyzer.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 30"
+          - "Maximum inventory stack: 1"
+          
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 50"
+            - "{{PLASTIC}} (1x)"
+            - "{{SILICON}} (1x)"
+            - "{{FPGA_CIRCUIT}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{PLASTIC}} (1x)"
+            - "{{SILICON}} (1x)"
+            - "{{COPPER}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 250 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

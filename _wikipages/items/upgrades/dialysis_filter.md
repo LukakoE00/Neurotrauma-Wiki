@@ -7,6 +7,42 @@ permalink: /items/upgrades/dialysis_filter
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/upgrades/dialysis_filter.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 60"
+            - "{{MECHANICAL}} 40"
+            - "{{ALUMINIUM}} (2x)"
+            - "{{FPGA_CIRCUIT}} (2x)"
+            - "{{ORGANIC_FIBER}} (2x)"
+            - "{{SODIUM}} (2x)"
+            - "{{CALCIUM}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{ALUMINIUM}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 420 marks"
+          - "Buyable at Outposts: Habitation, Colony"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

@@ -7,13 +7,40 @@ permalink: /items/transplants/brain_transplant
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/transplants/brain_transplant.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 100"
+          - "Maximum inventory stack: 1"
+          - "Should be refrigerated"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Not sold"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 100
-
      A vital organ. The patient’s consciousness and {{NEUROTRAUMA}} are directly linked to it. Unlike other organs, the brain is typically not transplanted.
 
      The brain may be removed or transplanted during an {{ORGAN_TRANSPLANT_SURGERY}} done on the head. Removal of the brain causes immediate {{UNCONSCIOUSNESS}}, {{CARDIAC_ARREST}}, {{RESPIRATORY_ARREST}}, loss of character control (the patient will enter freecam), and 100% {{NEUROTRAUMA}}, and continuous rapid neurotrauma gain, all of which will persist as long as the organ is removed. The condition of the organ is inversely proportional to neurotrauma, up to 100%. Removing a brain at 100% or more neurotrauma will not produce a brain transplant and the patient will immediately reach 200% neurotrauma, killing them.

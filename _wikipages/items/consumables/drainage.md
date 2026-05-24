@@ -7,6 +7,37 @@ permalink: /items/consumables/drainage
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/drainage.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Surgery
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 30"
+          - "Maximum inventory stack: 4"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 25"
+            - "{{PLASTIC}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 70 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

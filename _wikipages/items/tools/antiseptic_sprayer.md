@@ -7,6 +7,37 @@ permalink: /items/tools/antiseptic_sprayer
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/antiseptic_sprayer.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Niche
+          - Toggleable
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 40"
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{PLASTIC}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 75 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

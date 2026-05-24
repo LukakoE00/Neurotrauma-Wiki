@@ -7,6 +7,38 @@ permalink: /items/tools/health_scanner
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/health_scanner.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 40"
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 40"
+            - "{{FPGA_CIRCUIT}} (1x)"
+            - "{{ALUMINIUM}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{ALUMINIUM}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 150 marks"
+          - "Buyable at Outpost: Colony"
+          - "Buyable at Merchant: Research, Military, Medical"
+
 blocks:
   - type: description
     header: "Description:"

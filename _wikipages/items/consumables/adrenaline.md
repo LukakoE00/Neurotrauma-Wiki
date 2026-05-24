@@ -24,11 +24,11 @@ infobox:
     sections:
       - header: "Medical Fabricator Requirements"
         items:
-            - "- Cannot be fabricated."
+            - "Cannot be fabricated."
 
       - header: "Deconstructor Yield"
         items:
-            - "- Has no deconstructor outputs."
+            - "Has no deconstructor outputs."
 
   - title: Store
     sections:

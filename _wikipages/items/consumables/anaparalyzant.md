@@ -22,7 +22,7 @@ infobox:
 
   - title: Crafting
     sections:
-      - header: "Medical Fabricator Requirements"
+      - header: "Medical Fabricator Requirements (Output: 1x)"
         items:
             - "{{MEDICAL}} 24"
             - "{{PARALYZANT}} (1x)" 
@@ -53,7 +53,7 @@ blocks:
     text: |
      - Instantly cures {{ANESTHESIA}}
      - \+800% [Paralysis Resistance](https://barotraumagame.com/wiki/Paralysis_Resistance).
-     - \+5% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \+5% {{PSYCHOSIS}}
 
   - type: application_failure
     header: "Application Failure:"
@@ -61,6 +61,6 @@ blocks:
     text: |
      - \-3% {{ANESTHESIA}} per second for 60 seconds.
      - \+6.5% [Paralysis Resistance](https://barotraumagame.com/wiki/Paralysis_Resistance) per second for 60 seconds.
-     - \+0.75% [Psychosis](https://barotraumagame.com/wiki/Psychosis) per second for 60 seconds.
+     - \+0.75% {{PSYCHOSIS}} per second for 60 seconds.
 
 ---

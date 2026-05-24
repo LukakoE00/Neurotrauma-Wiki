@@ -7,14 +7,44 @@ permalink: /items/consumables/broad_spectrum_antibiotics
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/broad_spectrum_antibiotics.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 25"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+            
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 60 marks"
+          - "Buyable at Outposts: Habitation, Colony, Research"
+          - "Buyable at Merchant: Medical"
+          - "Available in Vending Machines"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 25
-
-     Broad-spectrum Antibiotics are the only treatment for {{SEPSIS}}. Still applies the husk infection resistance buff and reduces existing husk infection over time as per vanilla.
+     Broad-spectrum Antibiotics are the only treatment for {{SEPSIS}}. Still applies the husk infection resistance buff and reduces existing husk infection over time as per vanilla. Obtained by deconstructing {{SLIME_BACTERIA}}.
 
   - type: application_success
     header: "Application Success:"

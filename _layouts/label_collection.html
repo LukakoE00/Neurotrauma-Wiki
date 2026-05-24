@@ -26,18 +26,22 @@ layout: default
           {% endif %}
         {% endfor %}
 
-          <div class="blocks-categorypage_afflictions">
+        <div class="blocks-labelpage">
+          <div class="blocks-labelpage-grid">
             <div class="block">
-                {% for p in matching_pages %}
-                    <a href="{{ p.url | relative_url }}">
-                        {{ p.title }}
-                        {% if p.inline_image %}
-                        <img src="{{ p.inline_image | relative_url }}" alt="{{ p.title }}">
-                        {% endif %}
-                    </a>
-                {% endfor %}
+              {% for p in matching_pages %}
+                <a href="{{ p.url | relative_url }}">
+                  {{ p.title }}
+                  {% if p.inline_image %}
+                    <img
+                      src="{{ p.inline_image | relative_url }}"
+                      alt="{{ p.title }}">
+                  {% endif %}
+                </a>
+              {% endfor %}
             </div>
           </div>
+        </div>
       </section>
     </div>
   </main>

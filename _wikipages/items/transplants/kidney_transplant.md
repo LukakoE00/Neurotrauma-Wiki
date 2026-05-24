@@ -7,13 +7,41 @@ permalink: /items/transplants/kidney_transplant
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/transplants/kidney_transplant.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 40"
+          - "Maximum inventory stack: 1"
+          - "Should be refrigerated"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 400 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 40
-
      A pair of vital organs. The patient’s {{KIDNEY_DAMAGE}} is directly related to it. Unlike other organs, patients will have two kidneys, which are individually damaged. At 50% kidney damage, only one kidney has failed, while the other kidney will be functional. A patient may be healthy with only one kidney. By itself, 50% kidney damage will not cause lethal {{HYPERTENSION}}.
 
      The kidneys may be removed or transplanted during an {{ORGAN_TRANSPLANT_SURGERY}} done on the torso. Removing the kidneys will remove both at once, causing 100%{{KIDNEY_DAMAGE}} and up to 20% {{VANILLA_ORGAN_DAMAGE}}, inversely proportional to kidney damage before removal. The condition of the organs are inversely proportional to kidney damage before removal, up to 50% for each kidney. Therefore, removal of the kidneys at 25% kidney damage will produce one kidney at 100% and another one at 50%.

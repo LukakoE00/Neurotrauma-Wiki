@@ -7,13 +7,45 @@ permalink: /items/cybernetics_enhanced/fpga_circuit
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_cybernetics_enhanced/items/fpga_circuit.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Cybernetics Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{ELECTRICAL}} 40"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{ELECTRICAL}} 15"
+            - "{{PLASTIC}} (1x)"
+            - "{{COPPER}} (2x)"
+            - "{{TIN}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{COPPER}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 80 marks"
+          - "Buyable at Outposts: Habitation, Research, Military, Mine"
+          - "Buyable at Merchant: Engineering"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Electrical Skill Check: 40
-
      Used to repair {{DAMAGED_ELECTRONICS}} on Cyberlimbs.
 
   - type: application_success

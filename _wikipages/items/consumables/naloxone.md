@@ -7,13 +7,42 @@ permalink: /items/consumables/naloxone
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/naloxone.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 39"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 23"
+            - "{{OPIUM}} (1x)"
+            - "{{STABILOZINE}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{STABILOZINE}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 100 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 39
-
      Naloxone is used to treat the effects of opiates.
 
   - type: application_success

@@ -7,12 +7,76 @@ permalink: /items/cybernetics_enhanced/cyberarm
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_cybernetics_enhanced/items/cyberarm.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+          - Cybernetics Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MECHANICAL}} 70"
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting (Normal)
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MECHANICAL}} 70"
+            - "{{MEDICAL}} 20"
+            - "{{TITANIUM_ALUMINIUM_ALLOY}} (2x)"
+            - "{{STEEL_BAR}} (4x)"
+            - "{{FPGA_CIRCUIT}} (4x)"
+            - "{{FULGURIUM_CHUNK}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{TITANIUM_ALUMINIUM_ALLOY}} (1x)"
+            - "{{STEEL_BAR}} (3x)"
+            - "{{FPGA_CIRCUIT}} (3x)"
+            - "{{FULGURIUM_CHUNK}} (1x)"
+
+  - title: Store (Normal)
+    sections:
+      - items:
+          - "Base Price: 500 marks"
+          - "Buyable at Merchant: Medical, Engineering, Research"
+          
+  - title: Crafting (Waterproof)
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MECHANICAL}} 70"
+            - "{{MEDICAL}} 35"
+            - "{{CYBERARM}} (1x)"
+            - "{{FULGURIUM_CHUNK}} (1x)"
+            - "{{PLASTIC}} (3x)"
+            - "{{RUBBER}} (4x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{TITANIUM_ALUMINIUM_ALLOY}} (1x)"
+            - "{{STEEL_BAR}} (3x)"
+            - "{{FPGA_CIRCUIT}} (3x)"
+            - "{{FULGURIUM_CHUNK}} (2x)"
+            - "{{PLASTIC}} (2x)"
+            - "{{RUBBER}} (2x)"
+
+  - title: Store (Waterproof)
+    sections:
+      - items:
+          - "Minimum Difficulty: 15%"
+          - "Base Price: 2000 marks"
+          - "Buyable at Merchant: Medical, Engineering, Research"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Mechanical Skill Check: 70
      A cybernetic arm that can be attached to any Surgically Amputated arm socket. Can be removed with a Crowbar.
 
      #### Advantages of Cyberarms:
@@ -29,7 +93,7 @@ blocks:
      - They do not mix well with water. Won’t shock you, but will break over time if you don’t wear a suit.
        - The expensive Waterproof Cyberarm upgraded item prevents this, and otherwise has identical characteristics.
      - Requires maintenance if damaged.
-     - Costly maintenance, especially if your sub doesn’t have an ample source of steel and FPGA circuits.
+     - Costly maintenance, especially if your sub doesn’t have an ample source of STEEL_BAR and FPGA circuits.
      - Costly/expensive to make/buy.
      - Violently detach if critically damaged through material loss.
 

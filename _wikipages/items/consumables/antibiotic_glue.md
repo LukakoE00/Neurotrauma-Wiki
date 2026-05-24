@@ -17,12 +17,12 @@ infobox:
   - title: Statistics
     sections:
       - items:
-          - "Skill Required: {{MEDICAL}} 64"
+          - "Skill Required: {{MEDICAL}} 55"
           - "Maximum inventory stack: 8"
 
   - title: Crafting
     sections:
-      - header: "Medical Fabricator Requirements"
+      - header: "Medical Fabricator Requirements (Output: 4x)"
         items:
             - "{{MEDICAL}} 48"
             - "{{BROAD_SPECTRUM_ANTIBIOTICS}} (2x)" 
@@ -31,14 +31,14 @@ infobox:
 
       - header: "Deconstructor Yield"
         items:
-            - "{{STABILOZINE}} (1x)"
+            - "- Has no deconstructor outputs."
 
   - title: Store
     sections:
       - items:
-          - "Minimum Difficulty: 15%"
-          - "Base Price: 200 marks"
-          - "Buyable at Outposts: All"
+          - "Minimum Difficulty: 25%"
+          - "Base Price: 80 marks"
+          - "Buyable at Outposts: Habitation, Colony"
           - "Buyable at Merchant: Medical"
 
 blocks:

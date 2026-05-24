@@ -7,6 +7,39 @@ permalink: /items/tools/autopulse
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/autopulse.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+          - "Requires a Battery (or similar)"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 40"
+            - "{{PLASTIC}} (1x)"
+            - "{{FPGA_CIRCUIT}} (1x)"
+            - "{{STEEL_BAR}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{STEEL_BAR}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 300 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

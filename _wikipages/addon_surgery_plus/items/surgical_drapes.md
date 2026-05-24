@@ -7,6 +7,36 @@ permalink: /items/surgery_plus/surgical_drapes
 # image: /images/svg/anybodypart.svg
 inline_image: /images/addon_surgery_plus/items/surgical_drapes.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Surgery Plus Expansion
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "{{MEDICAL}} 15"
+            - "{{PLASTIC}} (1x)"
+            - "{{RUBBER}} (1x)"
+            
+      - header: "Deconstructor Yield"
+        items:
+            - "{{PLASTIC}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 100 Marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"

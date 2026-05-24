@@ -7,6 +7,39 @@ permalink: /items/tools/surgery_table
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/surgery_table.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Essential
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+
+  - title: Crafting
+    sections:
+      - header: "Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 50"
+            - "{{FPGA_CIRCUIT}} (1x)"
+            - "{{PLASTIC}} (1x)"
+            - "{{STEEL_BAR}} (1x)"
+            - "{{ALUMINIUM}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{STEEL_BAR}} (1x)"
+            - "{{ALUMINIUM}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 200 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
@@ -14,7 +47,7 @@ blocks:
     text: |
      The Surgery Table is an item that can be bought from a station or crafted and then placed down. For surgical purposes, the patient is not required to be _on_ the table, they only need to be _near_ it.
 
-     The Surgery Table provides artificial ventilation to everyone near the table and prevents {{TRAUMATIC_SHOCK}} provided the patient is under {{ANALGESIA}}. Additionally, the table will decrease {{OXYGEN_LOW}} and prevent {{RESPIRATORY_ARREST}}, and {{HYPOVENTILATION}} from increasing {{ACIDOSIS}}. The Hospital Bed has these same functions. Other {{BUNKS}} prevent Traumatic Shock, but **only for the character laying on them**, and do not provide the other effects of a Surgery Table.
+     The Surgery Table provides artificial ventilation to everyone near the table and prevents {{TRAUMATIC_SHOCK}} provided the patient is under {{ANALGESIA}}. Additionally, the table will decrease {{OXYGEN_LOW}} and prevent {{RESPIRATORY_ARREST}}, and {{HYPOVENTILATION}} from increasing {{ACIDOSIS}}. The Hospital Bed has these same functions. Other bunks prevent Traumatic Shock, but **only for the character laying on them**, and do not provide the other effects of a Surgery Table.
 
      The table also has wiring pins that can be used to output important information, such as blood pressure, {{ACIDOSIS}}, heart rate, and breathing rate.
 

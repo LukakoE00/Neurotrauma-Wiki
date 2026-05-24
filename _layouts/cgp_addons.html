@@ -59,16 +59,14 @@ layout: default
             {% for subgroup in grouped_items %}
               <section class="block">
                 <h2>{{ subgroup.name | replace: "_", " " | capitalize }}</h2>
-                <div class="category-grid">
-                  {% for item in subgroup.items %}
-                    <a class="category-card" href="{{ item.url | relative_url }}">
-                      <span>{{ item.title }}</span>
-                      {% if item.inline_image %}
-                        <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
-                      {% endif %}
-                    </a>
-                  {% endfor %}
-                </div>
+                {% for item in subgroup.items %}
+                  <a href="{{ item.url | relative_url }}">
+                    <span>{{ item.title }}</span>
+                    {% if item.inline_image %}
+                      <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
+                    {% endif %}
+                  </a>
+                {% endfor %}
               </section>
             {% endfor %}
           </div>

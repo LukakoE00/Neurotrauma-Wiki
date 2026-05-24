@@ -7,16 +7,45 @@ permalink: /items/consumables/morphine
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/morphine.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 50"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{MEDICAL}} 18"
+            - "{{OPIUM}} (2x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{OPIUM}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 100 marks"
+          - "Buyable at Outposts: All"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 30
-
      A moderately powerful opiate used to induce {{ANALGESIA}}.
 
-     To prevent exploits, morphine cannot be shot as a projectile, such as out of a {{SYRINGE_GUN}}.
+     To prevent exploits, morphine cannot be shot as a projectile, such as out of a Syringe Gun.
 
   - type: application_success
     header: "Application Success:"

@@ -7,6 +7,40 @@ permalink: /items/tools/manual_defibrillator
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/tools/manual_defibrillator.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Very Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Maximum inventory stack: 1"
+          - "Requires a Battery (or similar)"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 1x)"
+        items:
+            - "{{ELECTRICAL}} 40"
+            - "{{MEDICAL}} 30"
+            - "{{PLASTIC}} (1x)"
+            - "{{FPGA_CIRCUIT}} (1x)"
+            - "{{ALUMINIUM}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{PLASTIC}} (1x)"
+            - "{{COPPER}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 100 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
@@ -17,7 +51,7 @@ blocks:
      The chance for these is depicted in the graph below, with cyan being the chance to reset fibrillation, pink being the chance to cause cardiac arrest and orange being the chance to cure it. The X axis is medical skill and the Y axis is the chance to do something (with 1 being 100%).
 
      At medical skill below 80, the {{AED}} has better chances in all regards. At 100 medical skill, the manual defibrillator is superior. Manual defibrillator becomes perfectly safe, and is guaranteed to cure cardiac arrest and fibrillation.
-
+     <br><br>
      #### Graph:
      ![image info](../../images/page-specific/aed_graph.png)
 ---

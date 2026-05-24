@@ -3,24 +3,126 @@
 # SKILLS
 MEDICAL: 
   url: https://barotraumagame.com/wiki/Skills#Medical
-  image: /images/other_inline_icons/medical.png
+  image: /images/non-neurotrauma/other_inline_icons/medical.png
+MECHANICAL: 
+  url: https://barotraumagame.com/wiki/Skills#Mechanical_Engineering
+  image: /images/non-neurotrauma/other_inline_icons/mechanical.png
+WEAPONS: 
+  url: https://barotraumagame.com/wiki/Skills#Weapons
+  image: /images/non-neurotrauma/other_inline_icons/weapons.png
+ELECTRICAL: 
+  url: https://barotraumagame.com/wiki/Skills#Electrical_Engineering
+  image: /images/non-neurotrauma/other_inline_icons/electrical.png
 
 # RESOURCES
-PARALYZANT:
-  url: https://barotraumagame.com/wiki/Paralyzant
-  image: /images/resources/paralyzant.png
+# ORES
+IRON:
+  url: https://barotraumagame.com/wiki/Iron
+  image: /images/non-neurotrauma/resources/iron.png
+SILICON:
+  url: https://barotraumagame.com/wiki/Silicon
+  image: /images/non-neurotrauma/resources/silicon.png
+ALUMINIUM:
+  url: https://barotraumagame.com/wiki/Aluminium
+  image: /images/non-neurotrauma/resources/aluminium.png
+SODIUM:
+  url: https://barotraumagame.com/wiki/Sodium
+  image: /images/non-neurotrauma/resources/sodium.png
+CHLORINE:
+  url: https://barotraumagame.com/wiki/Chlorine
+  image: /images/non-neurotrauma/resources/chlorine.png
+PHOSPHORUS:
+  url: https://barotraumagame.com/wiki/Phosphorus
+  image: /images/non-neurotrauma/resources/phosphorus.png
+CARBON:
+  url: https://barotraumagame.com/wiki/Carbon
+  image: /images/non-neurotrauma/resources/carbon.png
+CALCIUM:
+  url: https://barotraumagame.com/wiki/Calcium
+  image: /images/non-neurotrauma/resources/calcium.png
+COPPER:
+  url: https://barotraumagame.com/wiki/Copper
+  image: /images/non-neurotrauma/resources/copper.png
+LITHIUM:
+  url: https://barotraumagame.com/wiki/Lithium
+  image: /images/non-neurotrauma/resources/lithium.png
+ZINC:
+  url: https://barotraumagame.com/wiki/Zinc
+  image: /images/non-neurotrauma/resources/zinc.png
+POTASSIUM:
+  url: https://barotraumagame.com/wiki/Potassium
+  image: /images/non-neurotrauma/resources/potassium.png
+PARALYXIS:
+  url: https://barotraumagame.com/wiki/Paralyxis
+  image: /images/non-neurotrauma/resources/paralyxis.png
+FULGURIUM_CHUNK:
+  url: https://barotraumagame.com/wiki/Fulgurium_Chunk
+  image: /images/non-neurotrauma/resources/fulgurium_chunk.png
+URANIUM:
+  url: https://barotraumagame.com/wiki/Uranium
+  image: /images/non-neurotrauma/resources/uranium.png
 
-STABILOZINE:
-  url: https://barotraumagame.com/wiki/Stabilozine
-  image: /images/resources/stabilozine.png
-
+# MATERIALS
+PLASTIC:
+  url: https://barotraumagame.com/wiki/Plastic
+  image: /images/non-neurotrauma/resources/plastic.png
+ORGANIC_FIBER:
+  url: https://barotraumagame.com/wiki/Organic_Fiber
+  image: /images/non-neurotrauma/resources/organic_fiber.png
+ETHANOL:
+  url: https://barotraumagame.com/wiki/Ethanol
+  image: /images/non-neurotrauma/resources/ethanol.png
+RUBBER:
+  url: https://barotraumagame.com/wiki/Rubber
+  image: /images/non-neurotrauma/resources/rubber.png
+SULPHURIC_ACID:
+  url: https://barotraumagame.com/wiki/Sulphuric_Acid
+  image: /images/non-neurotrauma/resources/sulphuric_acid.png
 ELASTIN:
   url: https://barotraumagame.com/wiki/Elastin
-  image: /images/resources/elastin.png
+  image: /images/non-neurotrauma/resources/elastin.png
+TITANIUM_ALUMINIUM_ALLOY:
+  url: https://barotraumagame.com/wiki/Titanium-Aluminium_Alloy
+  image: /images/non-neurotrauma/resources/titanium_aluminium_alloy.png
 
+# PLANTS
+SLIME_BACTERIA:
+  url: https://barotraumagame.com/wiki/Slime_Bacteria
+  image: /images/non-neurotrauma/resources/slime_bacteria.png
+RAPTOR_BANE:
+  url: https://barotraumagame.com/wiki/Raptor_Bane
+  image: /images/non-neurotrauma/resources/raptor_bane.png
 
+# NON-NEUROTRAUMA MEDICAL ITEMS
+ANABOLIC_STEROIDS:
+  url: https://barotraumagame.com/wiki/Anabolic_Steroids
+  image: /images/non-neurotrauma/resources/anabolic_steroids.png
+PARALYZANT:
+  url: https://barotraumagame.com/wiki/Paralyzant
+  image: /images/non-neurotrauma/resources/paralyzant.png
+CYANIDE:
+  url: https://barotraumagame.com/wiki/Cyanide
+  image: /images/non-neurotrauma/resources/cyanide.png
+STABILOZINE:
+  url: https://barotraumagame.com/wiki/Stabilozine
+  image: /images/non-neurotrauma/resources/stabilozine.png
+
+# NON-NEUROTRAUMA MEDICAL AFFLICTIONS
+OPIATE_ADDICTION:
+  url: https://barotraumagame.com/wiki/Opiate_Addiction
+  image: /images/non-neurotrauma/afflictions/opiate_addiction.png
+CHEMICAL_ADDICTION:
+  url: https://barotraumagame.com/wiki/Chem_Addiction
+  image: /images/non-neurotrauma/afflictions/opiate_addiction.png
+DELIRIUMINE_POISONING:
+  url: https://barotraumagame.com/wiki/Deliriumine_Poisoning
+  image: /images/afflictions/torso/toxic_poisoning.png
+PSYCHOSIS:
+  url: https://barotraumagame.com/wiki/Psychosis
+  image: /images/non-neurotrauma/afflictions/psychosis.png
+
+# ----------------------------------------- NEUROTRAUMA ------------------------------------------------
 # AFFLICTIONS
-
 # Any Bodypart
 BANDAGED:
   url: /afflictions/any-bodypart/bandaged
@@ -606,8 +708,7 @@ ORGAN_REJECTION:
 HOW_TO_DIAGNOSE:
   url: /general_information/tips/tip2/
 
-# ADDONS
-
+# ---------------------------------------- ADDONS --------------------------------------------------
 # Cybernetics Enhanced
 # Afflictions
 BENT_METAL:
@@ -633,15 +734,26 @@ CYBERLEG:
 WELDING_TOOL:
   url: /items/cybernetics_enhanced/welding_tool
   image: /images/addon_cybernetics_enhanced/items/welding_tool.png
+FPGA_CIRCUIT:
+  url: /items/cybernetics_enhanced/fpga_circuit
+  image: /images/addon_cybernetics_enhanced/items/fpga_circuit.png
+STEEL_BAR:
+  url: /items/cybernetics_enhanced/steel_bar
+  image: /images/addon_cybernetics_enhanced/items/steel_bar.png
 
 # Surgery Plus
+
+# Mechanics
+SURGERY:
+  image: /images/addon_surgery_plus/mechanics/surgery.png
+
 # Items
 SURGEON_CLOTHES:
   url: /items/surgery_plus/surgeon_clothes
-  image: /images/surgery_plus/items/surgeon_clothes.png
+  image: /images/addon_surgery_plus/items/surgeon_clothes.png
 SURGICAL_DRAPES:
   url: /items/surgery_plus/surgical_drapes
-  image: /images/surgery_plus/items/surgical_drapes.png
+  image: /images/addon_surgery_plus/items/surgical_drapes.png
 SURGICAL_MASK:
   url: /items/surgery_plus/surgical_mask
-  image: /images/surgery_plus/items/surgical_mask.png
+  image: /images/addon_surgery_plus/items/surgical_mask.png

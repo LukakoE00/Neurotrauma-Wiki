@@ -55,6 +55,9 @@ Mental Symptom:
 Niche:
   url: /labels/niche
 
+Toggleable:
+  url: /labels/toggleable
+
 # ADDONS
 Cybernetics Expansion:
   url: /labels/cybernetics_expansion

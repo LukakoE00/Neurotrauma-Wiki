@@ -7,6 +7,35 @@ permalink: /items/consumables/propofol
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/propofol.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Niche
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: None"
+          - "Maximum inventory stack: 2"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "{{PARALYXIS}} (1x)"
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 200 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
@@ -27,5 +56,5 @@ blocks:
      - {{FIBRILLATION}}
      - {{SEIZURE}}
      - {{VOMITING_BLOOD}}
-     - \-100% [Psychosis](https://barotraumagame.com/wiki/Psychosis)
+     - \-100% {{PSYCHOSIS}}
 ---

@@ -7,13 +7,43 @@ permalink: /items/consumables/thiamine
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/thiamine.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - First Aid
+          - Important
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 10"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 3x)"
+        items:
+            - "{{MEDICAL}} 40"
+            - "{{CARBON}} (2x)"
+            - "{{SULPHURIC_ACID}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 70 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 10
-
      A container of vitamin B1 pills used to assist in organ healing. Not capable of reviving dead organs (i.e. 100% organ damage).
 
   - type: application_success

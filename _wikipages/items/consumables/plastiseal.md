@@ -7,13 +7,43 @@ permalink: /items/consumables/plastiseal
 image: /images/svg/anybodypart.svg
 inline_image: /images/items/consumables/plastiseal.png
 
+infobox:
+  - title: Labels
+    sections:
+      - items:
+          - Item
+          - Very Important
+          - First Aid
+
+  - title: Statistics
+    sections:
+      - items:
+          - "Skill Required: {{MEDICAL}} 22"
+          - "Maximum inventory stack: 8"
+
+  - title: Crafting
+    sections:
+      - header: "Medical Fabricator Requirements (Output: 3x)"
+        items:
+            - "{{MEDICAL}} 16"
+            - "{{BANDAGES}} (3x)"
+            - "{{ELASTIN}} (1x)"
+
+      - header: "Deconstructor Yield"
+        items:
+            - "Has no deconstructor outputs."
+
+  - title: Store
+    sections:
+      - items:
+          - "Base Price: 50 marks"
+          - "Buyable at Merchant: Medical"
+
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: 22
-
      An improved version of {{BANDAGED}}, which can more effectively treat wounds.
 
   - type: application_success
