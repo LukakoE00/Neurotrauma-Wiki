@@ -3,7 +3,7 @@ layout: contentpage
 title: Traumatic Shock
 category: afflictions
 subcategory: surgery
-permalink: /afflictions/surgery-afflictions/traumatic_shock/
+permalink: /afflictions/surgery/traumatic_shock/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/traumatic_shock.png
 

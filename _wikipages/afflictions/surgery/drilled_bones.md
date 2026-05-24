@@ -3,7 +3,7 @@ layout: contentpage
 title: Drilled Bones
 category: afflictions
 subcategory: surgery
-permalink: /afflictions/surgery-afflictions/drilled_bones/
+permalink: /afflictions/surgery/drilled_bones/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/drilled_bones.png
 

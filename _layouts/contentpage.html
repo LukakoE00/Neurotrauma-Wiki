@@ -37,9 +37,17 @@ layout: default
                       {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
                       {%- if html contains placeholder -%}
                         {%- if img_src -%}
-                          {%- capture link_html -%}<a href="{{ url | relative_url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                          {%- if url contains "://" -%}
+                            {%- capture link_html -%}<a href="{{ url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                          {%- else -%}
+                            {%- capture link_html -%}<a href="{{ url | relative_url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                          {%- endif -%}
                         {%- else -%}
-                          {%- capture link_html -%}<a href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                          {%- if url contains "://" -%}
+                            {%- capture link_html -%}<a href="{{ url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                          {%- else -%}
+                            {%- capture link_html -%}<a href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                          {%- endif -%}
                         {%- endif -%}
                         {%- assign html = html | replace: placeholder, link_html -%}
                       {%- endif -%}
@@ -92,9 +100,17 @@ layout: default
                                   {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
                                   {%- if row_html contains placeholder -%}
                                     {%- if img_src -%}
-                                      {%- capture replacement -%}<a class="infobox-link" href="{{ url | relative_url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                      {%- if url contains "://" -%}
+                                        {%- capture replacement -%}<a class="infobox-link" href="{{ url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                      {%- else -%}
+                                        {%- capture replacement -%}<a class="infobox-link" href="{{ url | relative_url }}"><img class="infobox-inlineicon" src="{{ img_src | relative_url }}" alt="{{ token | replace: '_', ' ' | capitalize }}"> {{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                      {%- endif -%}
                                     {%- else -%}
-                                      {%- capture replacement -%}<a class="infobox-link" href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                      {%- if url contains "://" -%}
+                                        {%- capture replacement -%}<a class="infobox-link" href="{{ url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                      {%- else -%}
+                                        {%- capture replacement -%}<a class="infobox-link" href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>{%- endcapture -%}
+                                      {%- endif -%}
                                     {%- endif -%}
                                     {%- assign row_html = row_html | replace: placeholder, replacement -%}
                                   {%- endif -%}

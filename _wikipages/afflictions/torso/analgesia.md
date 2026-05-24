@@ -18,7 +18,7 @@ blocks:
     header: "Caused By:"
     order: 2
     text: |
-     - {{OPIOIDS}}
+     - Opioids like, ({{OPIUM}}, {{MORPHINE}}, {{FENTANYL}}, {{ANALGESIC_TANK}})
      - {{ADRENALINE}} (doesn't give more than 4.5% analgesia)
      - {{SPINAL_CORD_INJURY}}
      - {{DRUNK}} (20% or more, doesn't give more than 5% analgesia)

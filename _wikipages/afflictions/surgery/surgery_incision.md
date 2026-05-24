@@ -3,7 +3,7 @@ layout: contentpage
 title: Surgery Incision
 category: afflictions
 subcategory: surgery
-permalink: /afflictions/surgery-afflictions/surgery_incision/
+permalink: /afflictions/surgery/surgery_incision/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/surgery_incision.png
 

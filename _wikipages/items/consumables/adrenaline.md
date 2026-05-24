@@ -13,51 +13,35 @@ infobox:
       - items:
           - Item
           - Niche
-          - Not Visible Ingame
-          - Visible on Health Interface
-          - Visible on Hematology Analyzer
-          - Visible on Scanner
-          - Affliction
-          - Lethality Depends
-          - Very Important
-          - First Aid
-          - Lethal
-          - Important
-          - Non-Lethal
-          - Mechanic
-          - Information
-          - Procedure
-          - Surgery
-          - Essential
-          - Mental Symptom
-          - Niche
-          - Cybernetics Expansion
-          - Surgery Plus Expansion
 
   - title: Statistics
     sections:
       - items:
           - "Skill Required: None"
-          - "Maximum stack : 8"
+          - "Maximum inventory stack: 8"
 
   - title: Crafting
     sections:
-      - items:
-          - "Craftable?: No"
-          - "Deconstructible?: No"
+      - header: "Medical Fabricator Requirements"
+        items:
+            - "- Cannot be fabricated."
+
+      - header: "Deconstructor Yield"
+        items:
+            - "- Has no deconstructor outputs."
 
   - title: Store
     sections:
       - items:
-          - "Base Price: At least 20 bucks"
+          - "Base Price: 60 marks"
+          - "Buyable at Outposts: Research, Military"
+          - "Buyable at Merchant: Medical"
 
 blocks:
   - type: description
     header: "Description:"
     order: 1
     text: |
-     #### Medical Skill Check: None.
-
      Adrenaline is mainly used in the treatment of {{CARDIAC_ARREST}}, but has numerous other effects. Each adrenaline lasts 55 seconds.
 
   - type: effects

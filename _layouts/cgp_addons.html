@@ -36,12 +36,14 @@ layout: default
                 {%- if site.data.links -%}
                   {%- for item in site.data.links -%}
                     {%- assign token = item[0] -%}
-                    {%- assign url = item[1] -%}
-                    {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
-                    {%- capture link_html -%}
-                      <a href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>
-                    {%- endcapture -%}
-                    {%- assign html = html | replace: placeholder, link_html -%}
+                    {%- assign url = item[1].url -%}
+                    {%- unless url contains "://" -%}
+                      {%- assign placeholder = token | prepend: "{{" | append: "}}" -%}
+                      {%- capture link_html -%}
+                        <a href="{{ url | relative_url }}">{{ token | replace: "_", " " | capitalize }}</a>
+                      {%- endcapture -%}
+                      {%- assign html = html | replace: placeholder, link_html -%}
+                    {%- endunless -%}
                   {%- endfor -%}
                 {%- endif -%}
                 {{ html }}

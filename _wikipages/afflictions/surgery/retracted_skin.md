@@ -3,7 +3,7 @@ layout: contentpage
 title: Retracted Skin
 category: afflictions
 subcategory: surgery
-permalink: /afflictions/surgery-afflictions/retracted_skin/
+permalink: /afflictions/surgery/retracted_skin/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/retracted_skin.png
 

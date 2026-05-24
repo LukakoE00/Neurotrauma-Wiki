@@ -1,9 +1,23 @@
 # Used in Content Pages for automatic inline linking.
 
+# SKILLS
+MEDICAL: 
+  url: https://barotraumagame.com/wiki/Skills#Medical
+  image: /images/other_inline_icons/medical.png
+
 # RESOURCES
-IRON:
-  url: /images/resources/iron.png
-  image: /images/resources/iron.png
+PARALYZANT:
+  url: https://barotraumagame.com/wiki/Paralyzant
+  image: /images/resources/paralyzant.png
+
+STABILOZINE:
+  url: https://barotraumagame.com/wiki/Stabilozine
+  image: /images/resources/stabilozine.png
+
+ELASTIN:
+  url: https://barotraumagame.com/wiki/Elastin
+  image: /images/resources/elastin.png
+
 
 # AFFLICTIONS
 

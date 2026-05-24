@@ -3,7 +3,7 @@ layout: contentpage
 title: Clamped Bleeding
 category: afflictions
 subcategory: surgery
-permalink: /afflictions/surgery-afflictions/clamped_bleeding/
+permalink: /afflictions/surgery/clamped_bleeding/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/clamped_bleeding.png
 

@@ -3,7 +3,7 @@ layout: contentpage
 title: Sawed Bones
 category: afflictions
 subcategory: surgery
-permalink: /afflictions/surgery-afflictions/sawed_bones/
+permalink: /afflictions/surgery/sawed_bones/
 image: /images/svg/surgery.svg
 inline_image: /images/afflictions/surgery/sawed_bones.png
 

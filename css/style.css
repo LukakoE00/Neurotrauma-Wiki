@@ -348,6 +348,7 @@ main {
     font-weight: 600;
     opacity: 0.9;
     margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
 }
 
 /* Empty row for the table-esque content */
