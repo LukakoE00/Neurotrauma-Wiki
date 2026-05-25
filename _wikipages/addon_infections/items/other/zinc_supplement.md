@@ -4,7 +4,7 @@ title: Zinc supplement
 category: items
 addon: infections
 subcategory: consumables
-permalink: /addons/infections/items/zinc_supplement/
+permalink: /items/nt_infections/zinc_supplement/
 inline_image: /images/addon_infections/items/zinc_supplement.png
 
 infobox:

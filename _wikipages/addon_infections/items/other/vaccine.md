@@ -4,7 +4,7 @@ title: Vaccines
 category: items
 addon: infections
 subcategory: consumables
-permalink: /addons/infections/items/vaccines/
+permalink: /items/nt_infections/vaccines/
 inline_image: /images/addon_infections/items/vaccine.png
 
 infobox:

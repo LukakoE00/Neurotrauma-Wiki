@@ -4,7 +4,7 @@ title: Co-trimoxazole
 category: items
 addon: infections
 subcategory: antibiotics
-permalink: /addons/infections/items/co_trimoxazole/
+permalink: /items/nt_infections/co_trimoxazole/
 inline_image: /images/addon_infections/items/co_trimoxazole.png
 
 infobox:

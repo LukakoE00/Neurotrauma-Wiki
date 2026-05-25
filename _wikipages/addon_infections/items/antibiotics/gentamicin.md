@@ -4,7 +4,7 @@ title: Gentamicin
 category: items
 addon: infections
 subcategory: antibiotics
-permalink: /addons/infections/items/gentamicin/
+permalink: /items/nt_infections/gentamicin/
 inline_image: /images/addon_infections/items/gentamicin.png
 
 infobox:

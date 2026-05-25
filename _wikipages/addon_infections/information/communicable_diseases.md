@@ -3,7 +3,7 @@ layout: contentpage
 title: Communicable Diseases
 addon: infections
 subcategory: information
-permalink: /addons/infections/information/communicable_diseases/
+permalink: /addons/nt_infections/information/communicable_diseases/
 infobox:
   - title: Labels
     sections:

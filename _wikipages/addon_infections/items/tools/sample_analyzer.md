@@ -4,7 +4,7 @@ title: Sample analyzer
 category: items
 addon: infections
 subcategory: tools
-permalink: /addons/infections/items/sample_analyzer/
+permalink: /items/nt_infections/sample_analyzer/
 inline_image: /images/addon_infections/items/sample_analyzer.png
 
 infobox:

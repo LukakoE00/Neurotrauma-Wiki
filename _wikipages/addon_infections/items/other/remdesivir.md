@@ -4,7 +4,7 @@ title: Remdesivir
 category: items
 addon: infections
 subcategory: consumables
-permalink: /addons/infections/items/remdesivir/
+permalink: /items/nt_infections/remdesivir/
 inline_image: /images/addon_infections/items/remdesivir.png
 
 infobox:

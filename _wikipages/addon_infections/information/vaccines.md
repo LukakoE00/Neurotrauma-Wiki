@@ -3,7 +3,7 @@ layout: contentpage
 title: Vaccines
 addon: infections
 subcategory: information
-permalink: /addons/infections/information/vaccines/
+permalink: /addons/nt_infections/information/vaccines/
 infobox:
   - title: Labels
     sections:

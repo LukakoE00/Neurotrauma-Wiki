@@ -3,7 +3,7 @@ layout: contentpage
 title: Using Antibiotics
 addon: infections
 subcategory: information
-permalink: /addons/infections/information/using_antibiotics/
+permalink: /addons/nt_infections/information/using_antibiotics/
 infobox:
   - title: Labels
     sections:

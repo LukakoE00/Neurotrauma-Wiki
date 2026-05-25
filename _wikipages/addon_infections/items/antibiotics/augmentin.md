@@ -4,7 +4,7 @@ title: Augmentin
 category: items
 addon: infections
 subcategory: antibiotics
-permalink: /addons/infections/items/augmentin/
+permalink: /items/nt_infections/augmentin/
 inline_image: /images/addon_infections/items/augmentin.png
 
 infobox:

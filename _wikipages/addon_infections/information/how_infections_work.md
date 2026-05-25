@@ -3,7 +3,7 @@ layout: contentpage
 title: How the New Infections Work
 addon: infections
 subcategory: information
-permalink: /addons/infections/information/how_infections_work/
+permalink: /addons/nt_infections/information/how_infections_work/
 infobox:
   - title: Labels
     sections:

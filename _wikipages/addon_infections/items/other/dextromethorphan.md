@@ -4,7 +4,7 @@ title: Dextromethorphan
 category: items
 addon: infections
 subcategory: consumables
-permalink: /addons/infections/items/dextromethorphan/
+permalink: /items/nt_infections/dextromethorphan/
 inline_image: /images/addon_infections/items/dextromethorphan.png
 
 infobox:

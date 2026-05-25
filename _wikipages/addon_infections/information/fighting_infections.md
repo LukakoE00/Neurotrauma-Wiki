@@ -3,7 +3,7 @@ layout: contentpage
 title: Fighting Off Infections
 addon: infections
 subcategory: information
-permalink: /addons/infections/information/fighting_infections/
+permalink: /addons/nt_infections/information/fighting_infections/
 infobox:
   - title: Labels
     sections:

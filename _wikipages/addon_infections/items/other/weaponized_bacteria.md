@@ -4,7 +4,7 @@ title: Weaponized bacteria
 category: items
 addon: infections
 subcategory: consumables
-permalink: /addons/infections/items/weaponized_bacteria/
+permalink: /items/nt_infections/weaponized_bacteria/
 inline_image: /images/addon_infections/items/weaponized_bacteria.png
 
 infobox:

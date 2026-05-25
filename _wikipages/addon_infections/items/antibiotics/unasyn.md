@@ -4,7 +4,7 @@ title: Unasyn
 category: items
 addon: infections
 subcategory: antibiotics
-permalink: /addons/infections/items/unasyn/
+permalink: /items/nt_infections/unasyn/
 inline_image: /images/addon_infections/items/unasyn.png
 
 infobox:

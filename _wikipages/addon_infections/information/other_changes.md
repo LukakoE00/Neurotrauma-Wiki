@@ -3,7 +3,7 @@ layout: contentpage
 title: Other Changes
 addon: infections
 subcategory: information
-permalink: /addons/infections/information/other_changes/
+permalink: /addons/nt_infections/information/other_changes/
 infobox:
   - title: Labels
     sections:

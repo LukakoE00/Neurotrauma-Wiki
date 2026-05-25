@@ -4,7 +4,7 @@ title: Primaxin
 category: items
 addon: infections
 subcategory: antibiotics
-permalink: /addons/infections/items/primaxin/
+permalink: /items/nt_infections/primaxin/
 inline_image: /images/addon_infections/items/primaxin.png
 
 infobox:

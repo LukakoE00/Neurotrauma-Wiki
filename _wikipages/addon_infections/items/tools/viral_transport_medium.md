@@ -4,7 +4,7 @@ title: Viral transport medium
 category: items
 addon: infections
 subcategory: tools
-permalink: /addons/infections/items/viral_transport_medium/
+permalink: /items/nt_infections/viral_transport_medium/
 inline_image: /images/addon_infections/items/viral_transport_medium.png
 
 infobox:

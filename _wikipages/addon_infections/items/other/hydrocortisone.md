@@ -4,7 +4,7 @@ title: Hydrocortisone
 category: items
 addon: infections
 subcategory: consumables
-permalink: /addons/infections/items/hydrocortisone/
+permalink: /items/nt_infections/hydrocortisone/
 inline_image: /images/addon_infections/items/hydrocortisone.png
 
 infobox:

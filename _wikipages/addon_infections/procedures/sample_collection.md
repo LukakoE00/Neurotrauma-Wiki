@@ -4,7 +4,7 @@ title: Sample Collection
 category: procedures
 addon: infections
 subcategory: procedures
-permalink: /addons/infections/procedures/sample_collection/
+permalink: /afflictions/nt_infections/sample_collection/
 inline_image: /images/addon_infections/procedures/sample_collection.png
 
 infobox:

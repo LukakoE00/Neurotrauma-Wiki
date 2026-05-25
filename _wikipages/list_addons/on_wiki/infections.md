@@ -4,7 +4,7 @@ title: "NT: Infections"
 category: addons
 subcategory: on_wiki
 addon: infections
-permalink: /addons/infections/
+permalink: /addons/nt_infections/
 
 blocks:
   - type: description

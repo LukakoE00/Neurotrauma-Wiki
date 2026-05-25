@@ -4,7 +4,7 @@ title: Culture tube
 category: items
 addon: infections
 subcategory: tools
-permalink: /addons/infections/items/culture_tube/
+permalink: /items/nt_infections/culture_tube/
 inline_image: /images/addon_infections/items/culture_tube.png
 
 infobox:

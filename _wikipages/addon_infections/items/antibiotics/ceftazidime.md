@@ -4,7 +4,7 @@ title: Ceftazidime
 category: items
 addon: infections
 subcategory: antibiotics
-permalink: /addons/infections/items/ceftazidime/
+permalink: /items/nt_infections/ceftazidime/
 inline_image: /images/addon_infections/items/ceftazidime.png
 
 infobox:

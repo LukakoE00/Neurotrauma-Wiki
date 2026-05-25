@@ -4,7 +4,7 @@ title: Debridement
 category: procedures
 addon: infections
 subcategory: procedures
-permalink: /addons/infections/procedures/debridement/
+permalink: /afflictions/nt_infections/debridement/
 inline_image: /images/addon_infections/procedures/debridement.png
 
 infobox:

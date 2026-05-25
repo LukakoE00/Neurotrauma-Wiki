@@ -3,7 +3,7 @@ layout: contentpage
 title: Diagnosing Bacterial Infections
 addon: infections
 subcategory: information
-permalink: /addons/infections/information/diagnosing_bacterial_infections/
+permalink: /addons/nt_infections/information/diagnosing_bacterial_infections/
 infobox:
   - title: Labels
     sections:

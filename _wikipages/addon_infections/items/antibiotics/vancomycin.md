@@ -4,7 +4,7 @@ title: Vancomycin
 category: items
 addon: infections
 subcategory: antibiotics
-permalink: /addons/infections/items/vancomycin/
+permalink: /items/nt_infections/vancomycin/
 inline_image: /images/addon_infections/items/vancomycin.png
 
 infobox:

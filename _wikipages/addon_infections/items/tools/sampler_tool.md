@@ -4,7 +4,7 @@ title: Sampler tool
 category: items
 addon: infections
 subcategory: tools
-permalink: /addons/infections/items/sampler_tool/
+permalink: /items/nt_infections/sampler_tool/
 inline_image: /images/addon_infections/items/sampler_tool.png
 
 infobox:
