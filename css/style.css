@@ -26,10 +26,12 @@ God no! We will spam comments instead!
 
 /* All-element selector */
 /* For when we need to blanket-apply specific formatting */
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
 }
 
 /* Header Formatting */
@@ -131,6 +133,8 @@ body {
     /* Determines content positioning */
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    line-height: 1.6;
 
     /* Customization */
     color: var(--colour-text-default);
@@ -154,6 +158,8 @@ body {
     z-index: 999;
     height: 100vh; /* Ensures it goes all the way down and doesn't randomly cut off. There must be a better way for this */
     width: 150px;
+    padding-top: 10px;
+    padding-right: 5px;
 
     /* Determines content positioning */
     overflow-y: auto;
@@ -422,6 +428,8 @@ main {
 .infobox-label--toggleable { background-color: #1558BC; color: #000000; }
 .infobox-label--cybernetics-expansion { background-color: #164555; color: #000000; }
 .infobox-label--surgery-plus-expansion { background-color: #6CC3E0; color: #000000; }
+.infobox-label--eyes-expansion { background-color: #6CC3E0; color: #000000; }
+.infobox-label--infections-expansion { background-color: #6CC3E0; color: #000000; }
 
 /* Just list all pages side by side in the Label-specific pages */
 .blocks-labelpage {
@@ -491,6 +499,10 @@ main {
     border-radius: var(--size-bordercurves);
 }
 
+.block h2 {
+    margin-bottom: 5px;
+}
+
 /* Homepage category title links */
 .block h2 a {
     color: var(--colour-text-link);
@@ -506,8 +518,8 @@ main {
 /* The thing mentioned above. Contains text and an image corresponding to a content page, sorted into categories. */
 .block > a {
     /* Enforces Size */
-    height: 40px;
-    padding: 5px;
+    min-height: 40px;
+    padding: 8px 10px;
     margin-bottom: 5px;
     margin-top: 5px;
 
@@ -542,6 +554,29 @@ main {
     width: auto;
 }
 
+/* Addon Overrides */
+/* On specific pages, gives you the option to switch to page view for an addon instead of just Base NT */
+.addon-switcher {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Make the button a rectangle to differentiate it from the rest of the content on the page */
+.addon-button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid var(--colour-borders);
+  background: var(--colour-background-contentbox);
+  color: var(--colour-text-default);
+  cursor: pointer;
+}
+
+/* Make it 'glow' to highlight */
+.addon-button.active {
+  background: #555;
+  border-color: #aaa;
+}
+
 /* Changes for Mobile */
 /* Makes sure that things remain readable on mobile devices. */
 @media (max-width: 768px){
@@ -554,7 +589,8 @@ main {
         display: flex;
         flex-wrap: nowrap;
         align-items: center;
-
+        padding-top: 10px;
+        padding-right: 5px;
         overflow-x: auto;
         overflow-y: hidden;
 

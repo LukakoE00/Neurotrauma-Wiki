@@ -16,6 +16,18 @@ layout: default
           {% endif %}
         </h1>
 
+        {% if page.addons %}
+        <div class="addon-switcher">
+          {% for addon in page.addons %}
+            <button
+              class="addon-button"
+              data-addon="{{ addon.id }}">
+              {{ addon.label }}
+            </button>
+          {% endfor %}
+        </div>
+        {% endif %}
+
         {% assign sorted_blocks = page.blocks | sort: "order" %}
         {% if sorted_blocks %}
         <div class="contentpage-layout">
@@ -24,7 +36,10 @@ layout: default
             {% for block in sorted_blocks %}
               {% unless block.type == "price" or block.type == "crafting_cost" or block.type == "infobox" %}
 
-              <section class="block-contentpage {{ block.type }}">
+              <section
+                class="block-contentpage {{ block.type }} addon-block"
+                data-addon="{{ block.addon | default: 'vanilla' }}">
+
                 {% if block.header %}<h2>{{ block.header }}</h2>{% endif %}
 
                 <div class="block-contentpage-text">
@@ -137,3 +152,45 @@ layout: default
     </div>
   </main>
 </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const buttons = document.querySelectorAll(".addon-button");
+  const blocks = document.querySelectorAll(".addon-block");
+
+  function showAddon(addon) {
+
+    blocks.forEach(block => {
+      block.style.display =
+        block.dataset.addon === addon
+          ? ""
+          : "none";
+    });
+
+    buttons.forEach(button => {
+      button.classList.toggle(
+        "active",
+        button.dataset.addon === addon
+      );
+    });
+
+    const url = new URL(window.location);
+    url.searchParams.set("addon", addon);
+    history.replaceState({}, "", url);
+  }
+
+  buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      showAddon(button.dataset.addon);
+    });
+  });
+
+  const selected =
+    new URLSearchParams(window.location.search)
+      .get("addon") || "vanilla";
+
+  showAddon(selected);
+
+});
+</script>

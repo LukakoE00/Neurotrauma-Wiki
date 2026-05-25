@@ -54,9 +54,26 @@ layout: default
 
         {% assign related_items = site.wikipages | where: "addon", page.addon | where_exp: "item", "item.url != page.url" %}
         {% assign grouped_items = related_items | group_by: "subcategory" %}
+        {% assign information_group = grouped_items | where: "name", "information" | first %}
+        {% assign other_groups = grouped_items | where_exp: "group", "group.name != 'information'" %}
 
           <div class="blocks-categorypage_afflictions">
-            {% for subgroup in grouped_items %}
+
+            {% if information_group %}
+              <section class="block">
+                <h2>{{ information_group.name | replace: "_", " " | capitalize }}</h2>
+                {% for item in information_group.items %}
+                  <a href="{{ item.url | relative_url }}">
+                    <span>{{ item.title }}</span>
+                    {% if item.inline_image %}
+                      <img src="{{ item.inline_image | relative_url }}" alt="{{ item.title }}">
+                    {% endif %}
+                  </a>
+                {% endfor %}
+              </section>
+            {% endif %}
+
+            {% for subgroup in other_groups %}
               <section class="block">
                 <h2>{{ subgroup.name | replace: "_", " " | capitalize }}</h2>
                 {% for item in subgroup.items %}

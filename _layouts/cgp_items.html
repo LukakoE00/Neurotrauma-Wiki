@@ -10,7 +10,7 @@ layout: default
 
     <div class="blocks-categorypage_items">
         {% assign category_data = site.data.category_groups[page.category] %}
-        {% assign items = site.wikipages | where: "category", page.category %}
+        {% assign items = site.wikipages | where: "category", page.category  | where_exp: "item", "item.addon == nil" %}
         {% assign subgroups = items | group_by: "subcategory" %}
 
         {% if category_data and category_data.subcategories %}
