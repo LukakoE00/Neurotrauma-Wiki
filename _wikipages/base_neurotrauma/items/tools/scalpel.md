@@ -3,7 +3,7 @@ layout: contentpage
 title: Scalpel
 category: items
 subcategory: tools
-permalink: /items/tools/hemostat
+permalink: /items/tools/scalpel
 image: /images/svg/anybodypart.svg
 inline_image: /images/base_neurotrauma/items/tools/scalpel.png
 

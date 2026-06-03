@@ -106,9 +106,7 @@ header h2 a:hover {
     /* Customization */
     background: var(--colour-background-general);
     border-top: none;
-    border-right: 1.5px solid var(--colour-borders);
-    border-left: 1.5px solid var(--colour-borders);
-    border-bottom: 1.5px solid var(--colour-borders);
+    border: 1.5px solid var(--colour-borders);
     border-radius: var(--size-bordercurves);
 }
 
@@ -458,7 +456,6 @@ main {
     gap: 1.5rem;
     width: 100%;
 }
-
 
 /* Content Page Blocks */
 /* These contain the text, images or other information we want to display on this page. */
