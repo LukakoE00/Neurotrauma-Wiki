@@ -871,6 +871,9 @@ SURGICAL_DRAPES:
 SURGICAL_MASK:
   url: /items/surgery_plus/surgical_mask
   image: /images/addon_surgery_plus/items/surgical_mask.png
+MANNITOL_PLUS:
+  url: /items/surgery_plus/mannitol_plus
+  image: /images/addon_surgery_plus/items/mannitol_plus.png
 
 # ----------------------------------------- EYES ------------------------------------------------
 # NT Eyes
@@ -887,6 +890,9 @@ DEAD_EYE:
 DEAD_EYES:
   url: /afflictions/nt_eyes/dead_eyes/
   image: /images/addon_nt_eyes/afflictions/dead_eyes.png
+MISMATCH:
+  url: /afflictions/nt_eyes/mismatch/
+  image: /images/addon_nt_eyes/afflictions/mismatch.png
 
 # Items
 # Eyes
